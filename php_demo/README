@@ -1,0 +1,76 @@
+README concerning setting up html files on ugrad, and setting permissions:
+
+
+1) Your html file(s) should reside on ugrad within your public_html
+folder. They can be in a subfolder you set up there for this course if
+you like.  The html files (only) should be world-readable. To set this
+for a file named a.html, type the following command within the folder
+where that file resides:
+   chmod o+r a.html
+In the command above, the 'o' stands for others, and the '+r' indicates
+that we want to add reading privileges for that group. To confirm that
+you've done this correctly, you should see something like this when you
+type the command ls -l to list the files in this folder one-per-line:
+
+[more@ugradx public_html]$ ls -l
+-rw-------. 1 more users 149 Apr  7 23:49 a1.php
+-rw-------. 1 more users 345 Apr  8 00:07 a2.php
+-rw----r--. 1 more users 749 Apr  7 23:53 a.html
+
+Notice that the a.html file has an r in the 8th column from the left,
+and the other files in the folder do not. This means others can read
+the file.
+
+See also https://www.tutorialspoint.com/unix/unix-file-permission.htm
+for additional details about Unix/Linux file permissions. Or come to
+office hours so we can help you out.
+
+2) If you elect to keep your html files in a subfolder within public_html,
+you'll need to make the folder executable by others.  Let's say within
+public_html, I make a folder called db using the mkdir command. I'd then
+need to use chmod to make that folder executable:
+
+[more@ugradx public_html]$ mkdir db
+[more@ugradx public_html]$ chmod o+x db
+[more@ugradx public_html]$ ls -l
+-rw-------. 1 more users 149 Apr  7 23:49 a1.php
+-rw-------. 1 more users 345 Apr  8 00:07 a2.php
+-rw----r--. 1 more users 749 Apr  7 23:53 a.html
+drwx-----x. 3 more users 17 Apr  8 10:21 db
+
+Note that the 10th column of the line describing the db folder contains an 'x'
+to indicate that the folder is executable (which really means that a web
+browser is permitted to descend into it to look at readable files within it).
+Now I can move the other files I've created into that folder if I want to.
+
+
+3) Within whatever folder on ugrad where you'd like your files for this
+project to reside, set up conf.php with your own dbase login details.
+Use the provided copyOfConf.php as a template but change its name to
+conf.php, and change the three values in the file as indicated. Your partner
+should make their own changes to their copy of the file, so you won't need
+to share your conf.php file with anyone else. Make sure your conf.php file
+is not readable by anyone but you, as you don't want to give away password
+details to unauthorized users either.  To check, run ls -l again:
+
+[more@ugradx db]$ cp copyOfConf.php conf.php
+[more@ugradx db]$ emacs conf.php    //for making changes inside the file
+[more@ugradx db]$ ls -l
+-rw-------. 1 more users 149 Apr  7 23:49 a1.php
+-rw-------. 1 more users 345 Apr  8 00:07 a2.php
+-rw----r--. 1 more users 749 Apr  7 23:53 a.html
+-rw-------. 1 more users 310 Apr  8 07:27 conf.php
+
+If somehow you find that any files that should not be readable by
+others _are_ readable by others (indicated by r's appearing in columns
+where they shouldn't be), you can use the chmod command to remove privileges.
+For example, if I want to remove reading privileges on the file named
+conf.php for everyone but me, I might type:
+   chmod go-r conf.php
+In the command above, the g stands for 'group', the o stands for
+'other', and the '-r' means subtract reading privileges from both
+of those entities.
+
+
+If you have any questions about file permissions as you're getting files
+set up, let us know.
