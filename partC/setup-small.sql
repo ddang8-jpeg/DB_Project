@@ -81,6 +81,8 @@ CREATE TABLE Refuges (
   FOREIGN KEY(Refuge_ID) REFERENCES Refuge(Refuge_ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
+
+--Change local infile target txt file locations.
 LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Species-small.txt'
 INTO TABLE Species
 FIELDS TERMINATED BY '\t'
