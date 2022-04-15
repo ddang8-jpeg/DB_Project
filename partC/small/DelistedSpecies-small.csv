@@ -1,11 +1,11 @@
-Common Name,Scientific Name,ESA Listing Status,Is Foreign?,Species Group,Taxonomic Kingdom,Taxonomic Group,Taxonomic Family,Delisting Date,Delisting Reason
-Arizona agave,Agave arizonica,Original Data in Error - Not a listable entity,FALSE,Flowering Plants,Plant,Flowering Plants,Agavaceae,6/19/2006,The listed entity does not meet the statutory definition of a species
-American alligator,Alligator mississippiensis,Similarity of Appearance (Threatened),FALSE,Reptiles,Animal,Reptiles,Alligatoridae,6/4/1987,Species does not meet the definition of an endangered species or a threatened species - Recovered
-Dusky seaside sparrow,Ammodramus maritimus nigrescens,Extinction,FALSE,Birds,Animal,Birds,Emberizidae,12/12/1990,Species is extinct
-Mexican duck,Anas diazi,Original Data in Error - Taxonomic Revision,FALSE,Birds,Animal,Birds,Anatidae,7/25/1978,The listed entity does not meet the statutory definition of a species
-Mariana mallard,Anas oustaleti,Extinction,FALSE,Birds,Animal,Birds,Anatidae,2/23/2004,Species is extinct
-Deseret milkvetch,Astragalus desereticus,Recovery,FALSE,Flowering Plants,Plant,Flowering Plants,Fabaceae,11/19/2018,Species does not meet the definition of an endangered species or a threatened species - Recovered
-Rydberg milk-vetch,Astragalus perianus,Original Data in Error - New Information Discovered,FALSE,Flowering Plants,Plant,Flowering Plants,Fabaceae,9/14/1989,Species does not meet the definition of an endangered species or a threatened species - new information discovered
-Truckee Barberry,Berberis (=Mahonia) sonnei,Original Data in Error - Taxonomic Revision,FALSE,Flowering Plants,Plant,Flowering Plants,Berberidaceae,10/1/2003,The listed entity does not meet the statutory definition of a species
-Cuneate bidens,Bidens cuneata,Original Data in Error - Taxonomic Revision,FALSE,Flowering Plants,Plant,Flowering Plants,Asteraceae,2/6/1996,The listed entity does not meet the statutory definition of a species
-Aleutian Canada goose,Branta canadensis leucopareia,Recovery,FALSE,Birds,Animal,Birds,Anatidae,3/20/2001,Species does not meet the definition of an endangered species or a threatened species - Recovered
+Common Name,Scientific Name,ESA Listing Status,ESA Listing Date,Delisting Date,Delisting Reason,Is Foreign?,Taxonomic Family,Taxonomic Group,Taxonomic Kingdom
+Arizona agave,Agave arizonica,Original Data in Error - Not a listable entity,5/18/1984,6/19/2006,The listed entity does not meet the statutory definition of a species,FALSE,Agavaceae,Flowering Plants,Plant
+American alligator,Alligator mississippiensis,Similarity of Appearance (Threatened),3/11/1967,6/4/1987,Species does not meet the definition of an endangered species or a threatened species - Recovered,FALSE,Alligatoridae,Reptiles,Animal
+Dusky seaside sparrow,Ammodramus maritimus nigrescens,Extinction,3/11/1967,12/12/1990,Species is extinct,FALSE,Emberizidae,Birds,Animal
+Mexican duck,Anas diazi,Original Data in Error - Taxonomic Revision,3/11/1967,7/25/1978,The listed entity does not meet the statutory definition of a species,FALSE,Anatidae,Birds,Animal
+Mariana mallard,Anas oustaleti,Extinction,12/8/1977,2/23/2004,Species is extinct,FALSE,Anatidae,Birds,Animal
+Deseret milkvetch,Astragalus desereticus,Recovery,10/20/1999,11/19/2018,Species does not meet the definition of an endangered species or a threatened species - Recovered,FALSE,Fabaceae,Flowering Plants,Plant
+Rydberg milk-vetch,Astragalus perianus,Original Data in Error - New Information Discovered,5/27/1978,9/14/1989,Species does not meet the definition of an endangered species or a threatened species - new information discovered,FALSE,Fabaceae,Flowering Plants,Plant
+Truckee Barberry,Berberis (=Mahonia) sonnei,Original Data in Error - Taxonomic Revision,12/6/1979,10/1/2003,The listed entity does not meet the statutory definition of a species,FALSE,Berberidaceae,Flowering Plants,Plant
+Cuneate bidens,Bidens cuneata,Original Data in Error - Taxonomic Revision,2/17/1984,2/6/1996,The listed entity does not meet the statutory definition of a species,FALSE,Asteraceae,Flowering Plants,Plant
+Aleutian Canada goose,Branta canadensis leucopareia,Recovery,3/11/1967,3/20/2001,Species does not meet the definition of an endangered species or a threatened species - Recovered,FALSE,Anatidae,Birds,Animal
