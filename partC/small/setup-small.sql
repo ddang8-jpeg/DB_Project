@@ -31,5 +31,6 @@ CREATE TABLE Species (
   PRIMARY KEY(Scientific_Name)
 );
 
-USE Species
-APPEND FROM ./Species-small.csv TYPE DELIMITED
+LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Species-small.csv'
+INTO TABLE Species
+FIELDS TERMINATED BY ',';
