@@ -43,8 +43,10 @@ CREATE TABLE States (
 CREATE TABLE CurrentRange (
   Scientific_Name       VARCHAR(40),
   State_Code            VARCHAR(2),
-  FOREIGN KEY(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
-  FOREIGN KEY(State_Code)
+  
+  PRIMARY KEY(Scientific_Name, State_Code),
+  FOREIGN KEY(Scientific_Name) REFERENCES Species(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY(State_Code) REFERENCES States(State_Code)
 );
 
 CREATE TABLE Conservation (
@@ -57,8 +59,9 @@ CREATE TABLE Conservation (
 CREATE TABLE Planned (
   Scientific_Name       VARCHAR(40),
   Plan_ID               VARCHAR(10),
-  FOREIGN KEY(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
-  FOREIGN KEY(Plan_ID) ON DELETE CASCADE ON UPDATE CASCADE
+  PRIMARY KEY(Scientific_Name, Plan_ID),
+  FOREIGN KEY(Scientific_Name) REFERENCES Species(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY(Plan_ID) REFERENCES Conservation(Plan_ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE Refuge (
@@ -70,8 +73,9 @@ CREATE TABLE Refuge (
 CREATE TABLE Refuges (
   Scientific_Name       VARCHAR(40),
   Refuge_ID             VARCHAR(10),
-  FOREIGN KEY(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
-  FOREIGN KEY(Refuge_ID) ON DELETE CASCADE ON UPDATE CASCADE
+  PRIMARY KEY(Scientific_Name, Refuge_ID),
+  FOREIGN KEY(Scientific_Name) REFERENCES Species(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
+  FOREIGN KEY(Refuge_ID) REFERENCES Refuge(Refuge_ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Species-small.csv'
