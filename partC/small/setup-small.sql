@@ -1,20 +1,33 @@
-DROP TABLE IF EXISTS Species;
-DROP TABLE IF EXISTS DelistedSpecies;
-DROP TABLE IF EXISTS States;
 DROP TABLE IF EXISTS CurrentRange;
-DROP TABLE IF EXISTS Conservation;
 DROP TABLE IF EXISTS Planned;
-DROP TABLE IF EXISTS Refuge;
 DROP TABLE IF EXISTS Refuges;
+DROP TABLE IF EXISTS UnlistedSpecies;
+DROP TABLE IF EXISTS DelistedSpecies;
+DROP TABLE IF EXISTS ListedSpecies;
+DROP TABLE IF EXISTS States;
+DROP TABLE IF EXISTS Conservation;
+DROP TABLE IF EXISTS Refuge;
 
-CREATE TABLE Species (
+CREATE TABLE ListedSpecies (
   Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
   Esa_Listing_Status    VARCHAR(40),
   Is_Foreign            VARCHAR(10),
-  Tax_Kingdom           VARCHAR(20),
-  Tax_Group             VARCHAR(20),
   Tax_Family            VARCHAR(20),
+  Tax_Group             VARCHAR(20),
+  Tax_Kingdom           VARCHAR(20),
+  PRIMARY KEY(Scientific_Name)
+);
+
+CREATE TABLE ListedSpecies (
+  Common_Name           VARCHAR(40),
+  Scientific_Name       VARCHAR(40),
+  Esa_Listing_Status    VARCHAR(40),
+  Listing_Date          DATETIME,
+  Is_Foreign            VARCHAR(10),
+  Tax_Family            VARCHAR(20),
+  Tax_Group             VARCHAR(20),
+  Tax_Kingdom           VARCHAR(20),
   PRIMARY KEY(Scientific_Name)
 );
   
@@ -22,19 +35,19 @@ CREATE TABLE Species (
   Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
   Esa_Listing_Status    VARCHAR(40),
-  Is_Foreign            VARCHAR(10),
-  Tax_Kingdom           VARCHAR(20),
-  Tax_Group             VARCHAR(20),
-  Tax_Family            VARCHAR(20),
+  Listing_Date          DATETIME,
   Delisting_Date        DATETIME,
   Delisting_Reason      VARCHAR(100),
+  Is_Foreign            VARCHAR(10),
+  Tax_Family            VARCHAR(20),
+  Tax_Group             VARCHAR(20),
+  Tax_Kingdom           VARCHAR(20),
   PRIMARY KEY(Scientific_Name)
 );
 
 CREATE TABLE States (
-  Name                  VARCHAR(30),
+  State_Name            VARCHAR(30),
   State_Code            VARCHAR(2),
-  Esa_Listing_Status    VARCHAR(40),
   Region                VARCHAR(10),
   Division              VARCHAR(40),
   PRIMARY KEY(State_Name)
@@ -46,7 +59,7 @@ CREATE TABLE CurrentRange (
   
   PRIMARY KEY(Scientific_Name, State_Code),
   FOREIGN KEY(Scientific_Name) REFERENCES Species(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
-  FOREIGN KEY(State_Code) REFERENCES States(State_Code)
+  FOREIGN KEY(State_Code) REFERENCES States(State_Name)
 );
 
 CREATE TABLE Conservation (
@@ -67,7 +80,7 @@ CREATE TABLE Planned (
 CREATE TABLE Refuge (
   Refuge_ID             VARCHAR(10),
   Refuge_Name           VARCHAR(40),
-  PRIMARY KEY(Plan_ID)
+  PRIMARY KEY(Refuge_ID)
 );
 
 CREATE TABLE Refuges (
@@ -78,15 +91,19 @@ CREATE TABLE Refuges (
   FOREIGN KEY(Refuge_ID) REFERENCES Refuge(Refuge_ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Species-small.csv'
-INTO TABLE Species
-FIELDS TERMINATED BY ',';
-
-LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Species-DelistedSpecies-small.csv'
+LLOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/UnlistedSpecies-small.csv'
 INTO TABLE DelistedSpecies
 FIELDS TERMINATED BY ',';
 
-LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/State-small.csv'
+OAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/ListedSpecies-small.csv'
+INTO TABLE Species
+FIELDS TERMINATED BY ',';
+
+LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/DelistedSpecies-small.csv'
+INTO TABLE DelistedSpecies
+FIELDS TERMINATED BY ',';
+
+LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/State.csv'
 INTO TABLE States
 FIELDS TERMINATED BY ',';
 
