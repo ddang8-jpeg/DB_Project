@@ -13,4 +13,3 @@ ECOS Listed Species ID	Common Name	Scientific Name	ESA Listing Status	Is Foreign
 44	Virginia northern flying Squirrel	Glaucomys sabrinus fuscus	Recovery	FALSE	Sciuridae	Mammals	Animal
 94	Kirtland's Warbler	Setophaga kirtlandii (= Dendroica kirtlandii)	Recovery	FALSE	Parulidae	Birds	Animal
 134	Least tern	Sterna antillarum	Recovery	FALSE	Laridae	Birds	Animal
-137	Inyo California towhee	Pipilo crissalis eremophilus	Threatened	FALSE	Emberizidae	Birds	Animal
