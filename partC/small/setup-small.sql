@@ -1,14 +1,14 @@
 DROP TABLE IF EXISTS CurrentRange;
 DROP TABLE IF EXISTS Planned;
 DROP TABLE IF EXISTS Refuges;
-DROP TABLE IF EXISTS UnlistedSpecies;
+DROP TABLE IF EXISTS Species;
 DROP TABLE IF EXISTS DelistedSpecies;
 DROP TABLE IF EXISTS ListedSpecies;
 DROP TABLE IF EXISTS States;
 DROP TABLE IF EXISTS Conservation;
 DROP TABLE IF EXISTS Refuge;
 
-CREATE TABLE ListedSpecies (
+CREATE TABLE Species (
   Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
   Esa_Listing_Status    VARCHAR(40),
@@ -20,29 +20,19 @@ CREATE TABLE ListedSpecies (
 );
 
 CREATE TABLE ListedSpecies (
-  Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
-  Esa_Listing_Status    VARCHAR(40),
   Listing_Date          DATETIME,
-  Is_Foreign            VARCHAR(10),
-  Tax_Family            VARCHAR(20),
-  Tax_Group             VARCHAR(20),
-  Tax_Kingdom           VARCHAR(20),
   PRIMARY KEY(Scientific_Name)
+  FOREIGN KEY(Scientific_Name) REFERENCES Species(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
 );
   
   CREATE TABLE DelistedSpecies (
-  Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
-  Esa_Listing_Status    VARCHAR(40),
   Listing_Date          DATETIME,
   Delisting_Date        DATETIME,
   Delisting_Reason      VARCHAR(100),
-  Is_Foreign            VARCHAR(10),
-  Tax_Family            VARCHAR(20),
-  Tax_Group             VARCHAR(20),
-  Tax_Kingdom           VARCHAR(20),
   PRIMARY KEY(Scientific_Name)
+  FOREIGN KEY(Scientific_Name) REFERENCES Species(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
 );
 
 CREATE TABLE States (
@@ -91,11 +81,11 @@ CREATE TABLE Refuges (
   FOREIGN KEY(Refuge_ID) REFERENCES Refuge(Refuge_ID) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
-LLOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/UnlistedSpecies-small.csv'
+LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/UnlistedSpecies-small.csv'
 INTO TABLE DelistedSpecies
-FIELDS TERMINATED BY ',';
+FIELDS TERMINATED BY ','
 
-OAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/ListedSpecies-small.csv'
+LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Species-small.csv'
 INTO TABLE Species
 FIELDS TERMINATED BY ',';
 
