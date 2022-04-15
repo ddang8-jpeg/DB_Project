@@ -1,16 +1,13 @@
---setup-small.sql
---sets up tables using small .csv files
-
-DROP TABLE IF EXISTS Species-small;
-DROP TABLE IF EXISTS DelistedSpecies-small;
+DROP TABLE IF EXISTS Species;
+DROP TABLE IF EXISTS DelistedSpecies;
 DROP TABLE IF EXISTS States;
-DROP TABLE IF EXISTS CurrentRange-small;
-DROP TABLE IF EXISTS Conservation-small;
-DROP TABLE IF EXISTS Planned-small;
-DROP TABLE IF EXISTS Refuge-small;
-DROP TABLE IF EXISTS Refuges-small;
+DROP TABLE IF EXISTS CurrentRange;
+DROP TABLE IF EXISTS Conservation;
+DROP TABLE IF EXISTS Planned;
+DROP TABLE IF EXISTS Refuge;
+DROP TABLE IF EXISTS Refuges;
 
-CREATE TABLE Species-small (
+CREATE TABLE Species (
   Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
   Esa_Listing_Status    VARCHAR(40),
@@ -21,7 +18,7 @@ CREATE TABLE Species-small (
   PRIMARY KEY(Scientific_Name)
 );
   
-  CREATE TABLE DelistedSpecies-small (
+  CREATE TABLE DelistedSpecies (
   Common_Name           VARCHAR(40),
   Scientific_Name       VARCHAR(40),
   Esa_Listing_Status    VARCHAR(40),
@@ -34,6 +31,5 @@ CREATE TABLE Species-small (
   PRIMARY KEY(Scientific_Name)
 );
 
-USE Species-small
-APPEND FROM ./Species-small.csv TYPE DELIMITED;
-
+USE Species
+APPEND FROM ./Species-small.csv TYPE DELIMITED
