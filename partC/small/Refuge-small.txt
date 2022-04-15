@@ -1,0 +1,13 @@
+Refuge Name	Refuge Organization Code
+Muscatatuck National Wildlife Refuge	31530
+Big Oaks National Wildlife Refuge	31531
+Patoka River National Wildlife Refuge	31560
+Cypress Creek National Wildlife Refuge	32630
+Lewis and Clark National Wildlife Refuge	13555
+Little Pend Oreille National Wildlife Refuge	13561
+Mingo National Wildlife Refuge	33540
+National Key Deer Refuge	41580
+Great White Heron National Wildlife Refuge	41582
+Benton Lake Wetland Management District	61511
+UL Bend National Wildlife Refuge	61529
+Ninepipe National Wildlife Refuge	61541

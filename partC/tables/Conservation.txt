@@ -55,8 +55,7 @@ Conservation Plan Id	Conservation Plan Title	Conservation Plan Type
 63	"Baker, Robert A. (Rob Roy on Lake)"	HCP
 64	"Riverside County, Stephens' Kangaroo Rat (Long-Term)"	HCP
 65	"Richland SA, Ltd (Lot #01, Canyon Mesa) 804126"	HCP
-66	"Spicewood at Bull Creek
-(formerly Richland Bull Creek Assoc.)"	HCP
+66	"Spicewood at Bull Creek (formerly Richland Bull Creek Assoc.)"	HCP
 67	"Smith, Richard J."	HCP
 68	"Blum, Richard (Lake Georgetown)"	HCP
 69	"Baggett, Richard (Long Canyon)"	HCP
