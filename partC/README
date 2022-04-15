@@ -1,0 +1,11 @@
+Derek Dang - ddang8
+Maria Movsheva - mmovshe1
+
+Issues with phase C:
+Problems with part as as the dataset we planned to use, as outlined in part A, were too big, as in several million rows. 
+We had to make do with the other datasets and reconfigure our database saccordingly. The issue is that now our dataset may seem too
+simplistic as it only fully utilizes one large dataset. We also had issues with using the text files in mySQL. We we getting an
+issue where the foreign keys were not matching the keys of our other relation even though the data looked the same on the 
+surface. It was also strange because it was only happening to two of our relations. Apparently it was due to how the .txt file 
+was being read which resulted in a carriage return added which cause the keys to mismatch. We solved this by add the modifyier,
+"LINES TERMINATED '\r\n' to our INFILE calls.

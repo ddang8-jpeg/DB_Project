@@ -1,0 +1,6 @@
+We opted to utilize microsoft excel's built in transform funcitons to clean up most of the out datasets.
+We first downloaded the full dataset as a .csv since out of the other options, it proved to work best with
+excel. We then used the transform functions to clean up the data as it allow for the removal of null values and 
+the deletion of columns. Due to one of our datasets being too large (several million rows) we decide on not utilizing it as we
+were still using a total of 3 datasets. Once the they were cleaned up, we exported the datasets with excel into 
+tab delimited text files.

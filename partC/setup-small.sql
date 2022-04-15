@@ -104,7 +104,7 @@ IGNORE 1 LINES;
 LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/CurrentRange-small.txt'
 INTO TABLE CurrentRange
 FIELDS TERMINATED BY '\t'
-LINES TERMINATED BY '\r\t'
+LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
 LOAD DATA LOCAL INFILE '/home/ddang8/DB_sp22/DB_Project/partC/small/Conservation-small.txt'
