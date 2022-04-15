@@ -54,7 +54,7 @@ CREATE TABLE Conservation (
   PRIMARY KEY(Plan_ID)
 );
 
-CREATE TABLE CurrentRange (
+CREATE TABLE Planned (
   Scientific_Name       VARCHAR(40),
   Plan_ID               VARCHAR(10),
   FOREIGN KEY(Scientific_Name) ON DELETE CASCADE ON UPDATE CASCADE,
