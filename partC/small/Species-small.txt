@@ -1,7 +1,7 @@
 ECOS Listed Species ID	Common Name	Scientific Name	ESA Listing Status	Is Foreign?	Taxonomic Family	Taxonomic Group	Taxonomic Kingdom
 1	Indiana bat	Myotis sodalis	Endangered	FALSE	Vespertilionidae	Mammals	Animal
-2	Grizzly bear	Ursus arctos horribilis	https://ecos.fws.gov/ecp/species/7642	Threatened	FALSE	Ursidae	Mammals	Animal
-3	Columbian white-tailed deer	Odocoileus virginianus leucurus	https://ecos.fws.gov/ecp/species/154	Threatened	FALSE	Cervidae	Mammals	Animal
+2	Grizzly bear	Ursus arctos horribilis	Threatened	FALSE	Ursidae	Mammals	Animal
+3	Columbian white-tailed deer	Odocoileus virginianus leucurus	Threatened	FALSE	Cervidae	Mammals	Animal
 4	Key deer	Odocoileus virginianus clavium	Endangered	FALSE	Cervidae	Mammals	Animal
 5	Black-footed ferret	Mustela nigripes	Endangered	FALSE	Mustelidae	Mammals	Animal
 6	San Joaquin kit fox	Vulpes macrotis mutica	Endangered	FALSE	Canidae	Mammals	Animal
