@@ -1,0 +1,8 @@
+ECOS Listed Species ID	ESA Listing Date	Delisting Date	Delisting Reason
+10	3/11/1967	12/16/2015	Species does not meet the definition of an endangered species or a threatened species - Recovered
+19	6/4/1973	1/23/2018	Species is extinct
+36	1/7/1992	3/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+44	7/31/1985	3/4/2013	Species does not meet the definition of an endangered species or a threatened species - Recovered
+94	3/11/1967	11/8/2019	Species does not meet the definition of an endangered species or a threatened species - Recovered
+134	5/28/1985	2/12/2021	Species does not meet the definition of an endangered species or a threatened species - Recovered
+138	10/6/1987	5/16/2018	Species does not meet the definition of an endangered species or a threatened species - Recovered

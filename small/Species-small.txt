@@ -1,0 +1,16 @@
+ECOS Listed Species ID	Common Name	Scientific Name	Scientific Name_url	ESA Listing Status	Is Foreign?	Taxonomic Family	Taxonomic Group	Taxonomic Kingdom
+1	Indiana bat	Myotis sodalis	https://ecos.fws.gov/ecp/species/5949	Endangered	FALSE	Vespertilionidae	Mammals	Animal
+2	Grizzly bear	Ursus arctos horribilis	https://ecos.fws.gov/ecp/species/7642	Threatened	FALSE	Ursidae	Mammals	Animal
+3	Columbian white-tailed deer	Odocoileus virginianus leucurus	https://ecos.fws.gov/ecp/species/154	Threatened	FALSE	Cervidae	Mammals	Animal
+4	Key deer	Odocoileus virginianus clavium	https://ecos.fws.gov/ecp/species/6326	Endangered	FALSE	Cervidae	Mammals	Animal
+5	Black-footed ferret	Mustela nigripes	https://ecos.fws.gov/ecp/species/6953	Endangered	FALSE	Mustelidae	Mammals	Animal
+6	San Joaquin kit fox	Vulpes macrotis mutica	https://ecos.fws.gov/ecp/species/2873	Endangered	FALSE	Canidae	Mammals	Animal
+7	West Indian Manatee	Trichechus manatus	https://ecos.fws.gov/ecp/species/4469	Threatened	FALSE	Trichechidae	Mammals	Animal
+8	Florida panther	Puma (=Felis) concolor coryi	https://ecos.fws.gov/ecp/species/1763	Endangered	FALSE	Felidae	Mammals	Animal
+10	Delmarva Peninsula fox squirrel	Sciurus niger cinereus	https://ecos.fws.gov/ecp/species/6364	Recovery	FALSE	Sciuridae	Mammals	Animal
+19	Eastern puma (=cougar)	Puma (=Felis) concolor couguar	https://ecos.fws.gov/ecp/species/441	Extinction	FALSE	Felidae	Mammals	Animal
+36	Louisiana black bear	Ursus americanus luteolus	https://ecos.fws.gov/ecp/species/8552	Recovery	FALSE	Ursidae	Mammals	Animal
+44	Virginia northern flying Squirrel	Glaucomys sabrinus fuscus	https://ecos.fws.gov/ecp/species/2197	Recovery	FALSE	Sciuridae	Mammals	Animal
+94	Kirtland's Warbler	Setophaga kirtlandii (= Dendroica kirtlandii)	https://ecos.fws.gov/ecp/species/8078	Recovery	FALSE	Parulidae	Birds	Animal
+134	Least tern	Sterna antillarum	https://ecos.fws.gov/ecp/species/8505	Recovery	FALSE	Laridae	Birds	Animal
+137	Inyo California towhee	Pipilo crissalis eremophilus	https://ecos.fws.gov/ecp/species/3912	Threatened	FALSE	Emberizidae	Birds	Animal

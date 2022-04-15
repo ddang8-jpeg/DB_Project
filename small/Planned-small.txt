@@ -1,0 +1,11 @@
+ECOS Listed Species ID	Conservation Plan Id
+1	4330
+1	4328
+1	4258
+1	4000
+1	1224
+6	4774
+6	4771
+8	3622
+10	3953
+10	376

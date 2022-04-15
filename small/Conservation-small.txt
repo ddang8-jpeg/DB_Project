@@ -1,0 +1,11 @@
+ECOS Listed Species ID	Conservation Plan Id	Conservation Plan Title	Conservation Plan Type
+1	1224	Six Points Road Interchange	HCP
+1	4000	NiSource MSHCP	HCP
+1	4258	Beech Ridge Wind Power HCP	HCP
+1	4328	Fowler Ridge Wind Farm	HCP
+1	4330	Wildcat Wind Farm	HCP
+6	4771	Rooney Ranch Wind Repowering Project HCP	HCP
+6	4774	Aera Block 12 Development Project	HCP
+8	3622	City Gate	HCP
+10	376	Home Port on Winchester Creek Development Project	HCP
+10	3953	Pleasant Rifts Development and Delmarva fox squirrels	HCP
