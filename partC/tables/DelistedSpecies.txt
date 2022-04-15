@@ -1,0 +1,97 @@
+ECOS Listed Species ID	ESA Listing Date	Delisting Date	Delisting Reason
+10	3/11/1967	12/16/2015	Species does not meet the definition of an endangered species or a threatened species - Recovered
+19	6/4/1973	1/23/2018	Species is extinct
+36	1/7/1992	3/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+44	7/31/1985	3/4/2013	Species does not meet the definition of an endangered species or a threatened species - Recovered
+47	9/30/1988	5/18/2018	Species does not meet the definition of an endangered species or a threatened species - Recovered
+61	10/1/1987	6/23/2017	The listed entity does not meet the statutory definition of a species
+92	6/2/1970	12/17/2009	Species does not meet the definition of an endangered species or a threatened species - Recovered
+94	3/11/1967	11/8/2019	Species does not meet the definition of an endangered species or a threatened species - Recovered
+134	5/28/1985	2/12/2021	Species does not meet the definition of an endangered species or a threatened species - Recovered
+138	10/6/1987	5/16/2018	Species does not meet the definition of an endangered species or a threatened species - Recovered
+161	9/12/1977	4/1/2014	Species does not meet the definition of an endangered species or a threatened species - Recovered
+177	10/15/1982	11/4/2019	Species does not meet the definition of an endangered species or a threatened species - Recovered
+184	9/3/1986	11/28/2011	Species does not meet the definition of an endangered species or a threatened species - Recovered
+186	8/30/1999	9/15/2011	Species does not meet the definition of an endangered species or a threatened species - Recovered
+253	5/28/1980	7/13/2020	Species does not meet the definition of an endangered species or a threatened species - Recovered
+267	3/28/1985	10/15/2019	Species does not meet the definition of an endangered species or a threatened species - Recovered
+289	6/11/1985	1/7/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+304	10/18/1993	3/23/2015	Species does not meet the definition of an endangered species or a threatened species - Recovered
+388	4/17/1989	6/14/2013	Species does not meet the definition of an endangered species or a threatened species - Recovered
+400	8/8/1991	7/26/2021	The listed entity does not meet the statutory definition of a species
+405	12/14/1992	9/5/2007	The listed entity does not meet the statutory definition of a species
+410	12/14/1992	9/24/2010	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+509	10/20/1999	11/19/2018	Species does not meet the definition of an endangered species or a threatened species - Recovered
+554	10/18/2000	12/5/2019	Species does not meet the definition of an endangered species or a threatened species - Recovered
+699	7/5/1979	9/2/2011	Species does not meet the definition of an endangered species or a threatened species - Recovered
+706	9/5/1985	2/18/2011	Species does not meet the definition of an endangered species or a threatened species - Recovered
+714	9/20/1991	5/28/2013	The listed entity does not meet the statutory definition of a species
+783	5/27/1978	3/29/2018	Species does not meet the definition of an endangered species or a threatened species - Recovered
+834	4/7/1988	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+854	10/14/1998	7/2/2018	Species does not meet the definition of an endangered species or a threatened species - Recovered
+877	5/18/1984	6/19/2006	The listed entity does not meet the statutory definition of a species
+944	5/22/1997	8/18/2005	Species does not meet the definition of an endangered species or a threatened species - Recovered
+956	11/29/1991	7/16/2021	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1041	6/5/1987	9/7/2021	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1047	7/14/1994	7/16/2021	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1225	9/30/1988	4/7/2021	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1236	3/5/2004	9/12/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1238	3/5/2004	9/12/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1239	3/5/2004	9/12/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1307	3/11/1967	7/24/2003	Species does not meet the definition of an endangered species or a threatened species - Recovered
+1471	9/13/1996	4/26/2000	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+1640	3/11/1967	3/20/2001	Species does not meet the definition of an endangered species or a threatened species - Recovered
+2166	6/2/1970	2/4/1985	Species does not meet the definition of an endangered species or a threatened species - Recovered
+2170	5/27/1978	9/14/1989	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+2284	3/11/1967	7/25/1978	The listed entity does not meet the statutory definition of a species
+2348	12/7/1979	9/22/1993	The listed entity does not meet the statutory definition of a species
+2380	4/28/1976	8/31/1984	The listed entity does not meet the statutory definition of a species - Act amendment
+2446	12/2/1970	5/5/2017	Species does not meet the definition of an endangered species or a threatened species - Recovered
+2581	6/2/1970	10/5/1994	Species does not meet the definition of an endangered species or a threatened species - Recovered
+2922	4/5/1990	12/4/2013	Species does not meet the definition of an endangered species or a threatened species - Recovered
+3011	10/11/1979	11/27/1989	The listed entity does not meet the statutory definition of a species
+4004	3/11/1967	9/2/1983	Species is extinct
+4272	12/30/1974	3/9/1995	Species does not meet the definition of an endangered species or a threatened species - Recovered
+4575	4/29/1986	6/18/1993	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+4650	6/2/1970	9/12/1985	Species does not meet the definition of an endangered species or a threatened species - Recovered
+4671	3/11/1967	12/12/1990	Species is extinct
+4731	6/16/1994	6/16/1994	Species does not meet the definition of an endangered species or a threatened species - Recovered
+4934	10/13/1970	1/15/1982	Species is extinct
+5256	7/13/1982	9/22/1993	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+5307	6/2/1970	5/5/2017	Species does not meet the definition of an endangered species or a threatened species - Recovered
+5451	4/30/1980	12/4/1987	Species is extinct
+5457	6/2/1970	9/12/1985	Species does not meet the definition of an endangered species or a threatened species - Recovered
+5501	6/2/1970	8/25/1999	Species does not meet the definition of an endangered species or a threatened species - Recovered
+5764	9/17/1980	8/27/2002	Species does not meet the definition of an endangered species or a threatened species - Recovered
+5896	12/18/1977	11/22/1983	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+6410	9/26/1986	2/28/2000	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+6412	11/28/1979	6/24/1999	The listed entity does not meet the statutory definition of a species
+6669	6/14/1976	1/9/1984	Species is extinct
+6735	12/30/1974	3/9/1995	Species does not meet the definition of an endangered species or a threatened species - Recovered
+6789	4/10/1979	10/28/2008	Species is extinct
+7249	12/30/1974	3/9/1995	Species does not meet the definition of an endangered species or a threatened species - Recovered
+7498	6/2/1970	5/23/2012	Species does not meet the definition of an endangered species or a threatened species - Recovered
+7602	6/2/1970	9/12/1985	Species does not meet the definition of an endangered species or a threatened species - Recovered
+7711	3/11/1967	9/2/1983	Species is extinct
+7746	6/4/1973	10/12/1983	Species is extinct
+7884	2/17/1984	2/6/1996	The listed entity does not meet the statutory definition of a species
+8259	6/14/1976	2/29/1984	Species does not meet the definition of an endangered species or a threatened species - new information discovered
+8384	3/11/1967	8/8/2007	Species does not meet the definition of an endangered species or a threatened species - Recovered
+8386	3/11/1967	2/3/2020	Species does not meet the definition of an endangered species or a threatened species - Recovered
+8387	6/2/1970	9/21/2004	Species does not meet the definition of an endangered species or a threatened species - Recovered
+8388	12/8/1977	2/23/2004	Species is extinct
+8390	12/6/1979	10/1/2003	The listed entity does not meet the statutory definition of a species
+8391	8/7/1984	2/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+8393	7/19/1990	10/7/2003	Species does not meet the definition of an endangered species or a threatened species - Recovered
+8394	8/27/1984	2/23/2004	Species is extinct
+8396	3/11/1967	6/4/1987	Species does not meet the definition of an endangered species or a threatened species - Recovered
+897	2/12/1985	3/7/2022	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11351	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11354	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11357	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11358	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11359	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11360	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11361	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11362	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
+11363	6/2/1970	10/11/2016	Species does not meet the definition of an endangered species or a threatened species - Recovered
