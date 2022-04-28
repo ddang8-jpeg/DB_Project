@@ -1,0 +1,869 @@
+Taxonomic Family_1	Taxonomic Group	Taxonomic Kingdom
+Acanthaceae	Flowering Plants	Plant
+Acarosporaceae	Lichens	Plant
+Accipitridae	Birds	Animal
+Aceraceae	Flowering Plants	Plant
+Achatinellidae	Snails	Animal
+Acipenseridae	Fishes	Animal
+Acrididae	Insects	Animal
+Acrocephalidae	Birds	Animal
+Acroceridae	Insects	Animal
+Acroloxidae	Snails	Animal
+Acroporidae	Corals	Animal
+Adiantaceae	Ferns and Allies	Plant
+Aegothelidae	Birds	Animal
+Agariciidae	Corals	Animal
+Agavaceae	Flowering Plants	Plant
+Aizoaceae	Flowering Plants	Plant
+Alaudidae	Birds	Animal
+Alcedinidae	Birds	Animal
+Alcidae	Birds	Animal
+Alectoriaceae	Lichens	Plant
+Alismataceae	Flowering Plants	Plant
+Alligatoridae	Reptiles	Animal
+Alpheidae	Crustaceans	Animal
+Amaranthaceae	Flowering Plants	Plant
+Amaryllidaceae	Flowering Plants	Plant
+Amastridae	Snails	Animal
+Amblyopsidae	Fishes	Animal
+Amblystegiaceae	Lichens	Plant
+Amblystegiaceae	Flowering Plants	Plant
+Ambystomatidae	Amphibians	Animal
+Ameletidae	Insects	Animal
+Ammonitellidae	Snails	Animal
+Amphisbaenidae	Reptiles	Animal
+Amphiumidae	Amphibians	Animal
+Anacardiaceae	Flowering Plants	Plant
+Anatidae	Birds	Animal
+Ancylidae	Snails	Animal
+Andrenidae	Insects	Animal
+Anguidae	Reptiles	Animal
+Anguillidae	Fishes	Animal
+Aniellidae	Reptiles	Animal
+Anniellidae	Reptiles	Animal
+Annonaceae	Flowering Plants	Plant
+Anobiidae	Insects	Animal
+Anthicidae	Insects	Animal
+Anthocerotaceae	Flowering Plants	Plant
+Anthophoridae	Insects	Animal
+Antilocapridae	Mammals	Animal
+Apataniidae	Insects	Animal
+Apiaceae	Flowering Plants	Plant
+Apidae	Insects	Animal
+Apioceridae	Insects	Animal
+Aplodontidae	Mammals	Animal
+Apocynaceae	Flowering Plants	Plant
+Apodidae	Birds	Animal
+Apogonidae	Fishes	Animal
+Aquifoliaceae	Flowering Plants	Plant
+Araceae	Flowering Plants	Plant
+Araliaceae	Flowering Plants	Plant
+Aramidae	Birds	Animal
+Araneidae	Arachnids	Animal
+Arctiidae	Insects	Animal
+Ardeidae	Birds	Animal
+Arecaceae	Flowering Plants	Plant
+Argyresthiidae	Insects	Animal
+Arionidae	Snails	Animal
+Aristolochiaceae	Flowering Plants	Plant
+Artamidae	Birds	Animal
+Artemiidae	Crustaceans	Animal
+Artesiidae	Crustaceans	Animal
+Arthoniaceae	Lichens	Plant
+Arthopyreniaceae	Lichens	Plant
+Ascaphidae	Amphibians	Animal
+Asclepiadaceae	Flowering Plants	Plant
+Asellidae	Crustaceans	Animal
+Asilidae	Insects	Animal
+Asparagaceae	Flowering Plants	Plant
+Aspleniaceae	Ferns and Allies	Plant
+Assimineidae	Snails	Animal
+Asteraceae	Flowering Plants	Plant
+Asteriidae	Insects	Animal
+Astragalus	Flowering Plants	Plant
+Atelopodidae	Amphibians	Animal
+Atherinidae	Fishes	Animal
+Atherinopsidae	Fishes	Animal
+Atopetholidae	Millipedes	Animal
+Atrichornithidae	Birds	Animal
+Atyidae	Crustaceans	Animal
+Baetidae	Insects	Animal
+Bagridae	Fishes	Animal
+Balaenidae	Mammals	Animal
+Balaenopteridae	Mammals	Animal
+Bartamiaceae	Lichens	Plant
+Behningiidae	Insects	Animal
+Belostomatidae	Insects	Animal
+Berberidaceae	Flowering Plants	Plant
+Bethylidae	Insects	Animal
+Betulaceae	Flowering Plants	Plant
+Bignoniaceae	Flowering Plants	Plant
+Bittacidae	Insects	Animal
+Blaberidae	Insects	Animal
+Blephariceridae	Insects	Animal
+Bochicidae	Arachnids	Animal
+Boidae	Reptiles	Animal
+Bombycillidae	Birds	Animal
+Boraginaceae	Flowering Plants	Plant
+Bovidae	Mammals	Animal
+Brachtheciaceae	Flowering Plants	Plant
+Brachycentridae	Insects	Animal
+Brachypteraciidae	Birds	Animal
+Bradybaenidae	Snails	Animal
+Bradypodidae	Mammals	Animal
+Branchinectidae	Crustaceans	Animal
+Brassicaceae	Flowering Plants	Plant
+Bromeliaceae	Flowering Plants	Plant
+Bryaceae	Flowering Plants	Plant
+Buceratidae	Birds	Animal
+Bufonidae	Amphibians	Animal
+Bulimulidae	Snails	Animal
+Buprestidae	Insects	Animal
+Burmanniaceae	Flowering Plants	Plant
+Buxaceae	Flowering Plants	Plant
+Cacatacea	Flowering Plants	Plant
+Cacatuidae	Birds	Animal
+Cactaceae	Flowering Plants	Plant
+Caenestheriidae	Crustaceans	Animal
+Caenidae	Insects	Animal
+Caliciaceae	Lichens	Plant
+Callaeidae	Birds	Animal
+Callithricidae	Mammals	Animal
+Camabaridae	Crustaceans	Animal
+Camaenidae	Snails	Animal
+Cambaridae	Crustaceans	Animal
+Cambaridae	Fishes	Animal
+Camelidae	Mammals	Animal
+Campanlaceae	Flowering Plants	Plant
+Campanulaceae	Flowering Plants	Plant
+Campephagidae	Birds	Animal
+Canellaceae	Flowering Plants	Plant
+Canidae	Mammals	Animal
+Cannaceae	Flowering Plants	Plant
+Capniidae	Insects	Animal
+Capparaceae	Flowering Plants	Plant
+Caprifoliaceae	Flowering Plants	Plant
+Caprimulgidae	Birds	Animal
+Capromyidae	Mammals	Animal
+Carabidae	Insects	Animal
+Carcharhinidae	Algae	UNKNOWN
+Cardinalidae	Birds	Animal
+Carposinidae	Insects	Animal
+Caryophyllaceae	Flowering Plants	Plant
+Caryophylliidae	Corals	Animal
+Castoridae	Mammals	Animal
+Cathartidae	Birds	Animal
+Catostomidae	Fishes	Animal
+Cebidae	Mammals	Animal
+Celastraceae	Flowering Plants	Plant
+Centrarchidae	Fishes	Animal
+Cephaloziellaceae	Flowering Plants	Plant
+Cerambycidae	Insects	Animal
+Ceratophyllaceae	Flowering Plants	Plant
+Cercopithecidae	Mammals	Animal
+Certhiidae	Birds	Animal
+Certhilidae	Birds	Animal
+Cervidae	Mammals	Animal
+Cesambycidae	Insects	Animal
+Channidae	Fishes	Animal
+Charadriidae	Birds	Animal
+Cheiridiidae	Arachnids	Animal
+Chelidae	Reptiles	Animal
+Cheloniidae	Reptiles	Animal
+Chelydridae	Reptiles	Animal
+Chenopodiaceae	Flowering Plants	Plant
+Chernetidae	Arachnids	Animal
+Chinchillidae	Mammals	Animal
+Chirocephalidae	Crustaceans	Animal
+Chloroperlidae	Insects	Animal
+Chrysomelidae	Insects	Animal
+Chrysopidae	Insects	Animal
+Chthonidae	Arachnids	Animal
+Chthoniidae	Arachnids	Animal
+Cicadellidae	Insects	Animal
+Cicindelidae	Insects	Animal
+Ciconiidae	Birds	Animal
+Cinclidae	Birds	Animal
+Cirolanidae	Crustaceans	Animal
+Cistaceae	Flowering Plants	Plant
+Cixiidae	Insects	Animal
+Cladoniaceae	Lichens	Plant
+Clupeidae	Fishes	Animal
+Clusiaceae	Flowering Plants	Plant
+Cobitidae	Fishes	Animal
+Coccyzidae	Birds	Animal
+Cochlospermaceae	Flowering Plants	Plant
+Cochylidae	Insects	Animal
+Coelacanthidae	Fishes	Animal
+Coenagrionidae	Insects	Animal
+Coleophoridae	Insects	Animal
+Colletidae	Insects	Animal
+Colubridae	Reptiles	Animal
+Columbidae	Birds	Animal
+Commelinaceae	Flowering Plants	Plant
+Convolvulaceae	Flowering Plants	Plant
+Copepoda	Crustaceans	Animal
+Cordulegastridae	Insects	Animal
+Corduliidae	Insects	Animal
+Corvidae	Birds	Animal
+Cotingidae	Birds	Animal
+Cottidae	Fishes	Animal
+Cracidae	Birds	Animal
+Cracticidae	Birds	Animal
+Crangonyctidae	Crustaceans	Animal
+Craseonycteridae	Mammals	Animal
+Crassulaceae	Flowering Plants	Plant
+Cricetidae	Mammals	Animal
+Crocodylidae	Reptiles	Animal
+Crossosomataceae	Flowering Plants	Plant
+Crotalidae	Reptiles	Animal
+Crotaphytidae	Reptiles	Animal
+Cryptobranchidae	Amphibians	Animal
+Cryptopidae	Millipedes	Animal
+Ctenizidae	Arachnids	Animal
+Cuculidae	Birds	Animal
+Cucurbitaceae	Flowering Plants	Plant
+Cupressaceae	Conifers and Cycads	Plant
+Curculionidae	Insects	Animal
+Cuscutaceae	Flowering Plants	Plant
+Cyatheaceae	Ferns and Allies	Plant
+Cycadaceae	Conifers and Cycads	Plant
+Cyclopidae	Crustaceans	Animal
+Cyperaceae	Flowering Plants	Plant
+Cypheliaceae	Lichens	Plant
+Cyprididae	Crustaceans	Animal
+Cyprindidae	Fishes	Animal
+Cyprinidae	Fishes	Animal
+Cyprinodonidae	Fishes	Animal
+Cyprinodontidae	Fishes	Animal
+Danaidae	Insects	Animal
+Dasypodidae	Mammals	Animal
+Dasyuridae	Mammals	Animal
+Daubentoniidae	Mammals	Animal
+Delphacidae	Insects	Animal
+Delphinidae	Mammals	Animal
+Dendrophylliidae	Corals	Animal
+Dennstaedtiaceae	Ferns and Allies	Plant
+Dermatemyidae	Reptiles	Animal
+Dermochelyidae	Reptiles	Animal
+Diapensiaceae	Flowering Plants	Plant
+Dicamptodontidae	Amphibians	Animal
+Dicranaceae	Lichens	Plant
+Dicranaceae	Flowering Plants	Plant
+Dictynidae	Arachnids	Animal
+Diomedeidae	Birds	Animal
+Dipluridae	Arachnids	Animal
+Dipseudopsidae	Insects	Animal
+Discidae	Snails	Animal
+Discoglossidae	Amphibians	Animal
+Dolichopodidae	Insects	Animal
+Drepanidinae	Birds	Animal
+Droseraceae	Flowering Plants	Plant
+Drosophilidae	Insects	Animal
+Dryopidae	Insects	Animal
+Dryopteridaceae	Ferns and Allies	Plant
+Dryopteridaceae	Flowering Plants	Plant
+Dugongidae	Mammals	Animal
+Dumontiidae	Crustaceans	Animal
+Dytiscidae	Insects	Animal
+Ecnomidae	Insects	Animal
+Elapidae	Reptiles	Animal
+Elassomatidae	Fishes	Animal
+Elateridae	Insects	Animal
+Elephantidae	Mammals	Animal
+Elmidae	Insects	Animal
+Emballonuridae	Mammals	Animal
+Emberizidae	Birds	Animal
+Embiotocidae	Fishes	Animal
+Empididae	Insects	Animal
+Emydidae	Reptiles	Animal
+Entocytheridae	Crustaceans	Animal
+Entomobryidae	Insects	Animal
+Epacridaceae	Flowering Plants	Plant
+Ephedraceae	Conifers and Cycads	Plant
+Ephemerellidae	Insects	Animal
+Ephemeridae	Insects	Animal
+Ephemeroptera	Insects	Animal
+Ephydridae	Insects	Animal
+Epinephelidae	Fishes	Animal
+Equidae	Mammals	Animal
+Erebidae	Insects	Animal
+Erethizontidae	Mammals	Animal
+Ericaceae	Flowering Plants	Plant
+Ericaea	Flowering Plants	Plant
+Eriocaulaceae	Flowering Plants	Plant
+Eschrichtiidae	Mammals	Animal
+Estrildidae	Birds	Animal
+Ethmiidae	Insects	Animal
+Eublepharidae	Reptiles	Animal
+Eubriidae	Insects	Animal
+Eucnemidae	Insects	Animal
+Eumastacidae	Insects	Animal
+Eumenidae	Insects	Animal
+Eupelmidae	Insects	Animal
+Euphorbiaceae	Flowering Plants	Plant
+Fabacaeae	Flowering Plants	Plant
+Fabaceae	Flowering Plants	Plant
+Fagaceae	Flowering Plants	Plant
+Falconidae	Birds	Animal
+Faviidae	Corals	Animal
+Felidae	Mammals	Animal
+Fissidentaceae	Ferns and Allies	Plant
+Fissidentaceae	Lichens	Plant
+Flacourtiaceae	Flowering Plants	Plant
+Formicariidae	Birds	Animal
+Formicidae	Insects	Animal
+Frankeniaceae	Flowering Plants	Plant
+Fregatidae	Birds	Animal
+Fringillidae	Birds	Animal
+Fumariaceae	Flowering Plants	Plant
+Fundulidae	Fishes	Animal
+Fungiidae	Corals	Animal
+Furnariidae	Birds	Animal
+Gadidae	Fishes	Animal
+Gallinaceae	Birds	Animal
+Gammaridae	Crustaceans	Animal
+Gammaridae	Insects	Animal
+Garypidae	Arachnids	Animal
+Gasterosteidae	Fishes	Animal
+Gaviidae	Birds	Animal
+Gekkonidae	Reptiles	Animal
+Gentianaceae	Flowering Plants	Plant
+Geocalycaceae	Flowering Plants	Plant
+Geometridae	Insects	Animal
+Geomyidae	Mammals	Animal
+Geotrupidae	Insects	Animal
+Geraniaceae	Flowering Plants	Plant
+Geraniales	Flowering Plants	Plant
+Gerneriaceae	Flowering Plants	Plant
+Gesneriaceae	Flowering Plants	Plant
+Giraffidae	Mammals	Animal
+Glaphyridae	Insects	Animal
+Glareolidae	Birds	Animal
+Glaresidae	Insects	Animal
+Glossosomatidae	Insects	Animal
+Gnaphosidae	Arachnids	Animal
+Gobiidae	Fishes	Animal
+Gomphaceae	Flowering Plants	Plant
+Gomphidae	Insects	Animal
+Gomphiidae	Insects	Animal
+Goodeniaceae	Flowering Plants	Plant
+Gracilariidae	Insects	Animal
+Gracillariidae	Insects	Animal
+Grammitidaceae	Ferns and Allies	Plant
+Graphidaceae	Lichens	Plant
+Grimmiaceae	Flowering Plants	Plant
+Grossulariaceae	Flowering Plants	Plant
+Gruidae	Birds	Animal
+Gryllidae	Insects	Animal
+Gyrinidae	Insects	Animal
+Hadziidae	Crustaceans	Animal
+Haematopodidae	Birds	Animal
+Haliotidae	Snails	Animal
+Halipilidae	Insects	Animal
+Haliplidae	Insects	Animal
+Haloragaceae	Flowering Plants	Plant
+Hamamelidaceae	Flowering Plants	Plant
+Helicarionidae	Snails	Animal
+Helicodiscidae	Snails	Animal
+Helicopsychidae	Insects	Animal
+Helminthoglyptida	Snails	Animal
+Helminthoglyptidae	Snails	Animal
+Helodermatidae	Reptiles	Animal
+Hemerobiidae	Insects	Animal
+Hepialidae	Insects	Animal
+Heptageniidae	Insects	Animal
+Hesperiidae	Insects	Animal
+Heteromyidae	Mammals	Animal
+Hippopotamidae	Mammals	Animal
+Hipposideridae	Mammals	Animal
+Hirundinidae	Birds	Animal
+Humboldtianidae	Snails	Animal
+Hyaenidae	Mammals	Animal
+Hyalellidae	Crustaceans	Animal
+Hydorbiidae	Snails	Animal
+Hydraenidae	Insects	Animal
+Hydrobatidae	Birds	Animal
+Hydrobiidae	Snails	Animal
+Hydrobiidae	Clams	Animal
+Hydrocharitaceae	Flowering Plants	Plant
+Hydrophilidae	Insects	Animal
+Hydrophyllacea	Flowering Plants	Plant
+Hydrophyllaceae	Flowering Plants	Plant
+Hydropsychidae	Insects	Animal
+Hydroptilidae	Insects	Animal
+Hylaeidae	Insects	Animal
+Hylidae	Amphibians	Animal
+Hymenophyllaceae	Ferns and Allies	Plant
+Hypericaceae	Flowering Plants	Plant
+Hypnaceae	Flowering Plants	Plant
+Hypogastruridae	Insects	Animal
+Hyrdobiidae	Snails	Animal
+Icacinaceae	Flowering Plants	Plant
+Ictaluridae	Fishes	Animal
+Icteridae	Birds	Animal
+Ideoroncidae	Arachnids	Animal
+Iguanidae	Reptiles	Animal
+Illiciaceae	Flowering Plants	Plant
+Incurvariidae	Insects	Animal
+Indridae	Mammals	Animal
+Iridaceae	Flowering Plants	Plant
+Iridaceae	Insects	Animal
+Isoetaceae	Ferns and Allies	Plant
+Ithonidae	Insects	Animal
+Joinvilleaceae	Flowering Plants	Plant
+Juglandaceae	Flowering Plants	Plant
+Juncaceae	Flowering Plants	Plant
+Juncaginaceae	Flowering Plants	Plant
+Kenkiidae	Flatworms and Roundworms	Animal
+Kinosternidae	Reptiles	Animal
+Lacertidae	Reptiles	Animal
+Lamiaceae	Flowering Plants	Plant
+Lampyridae	Insects	Animal
+Laniidae	Birds	Animal
+Laridae	Birds	Animal
+Lauraceae	Flowering Plants	Plant
+Lecanoraceae	Lichens	Plant
+Lecanoraceae	Flowering Plants	Plant
+Lecanorales	Lichens	Plant
+Leiodidae	Insects	Animal
+Leiopelmatidae	Amphibians	Animal
+Leitneriaceae	Flowering Plants	Plant
+Lejeuneaceae	Flowering Plants	Plant
+Lemuridae	Mammals	Animal
+Lennoaceae	Flowering Plants	Plant
+Lentibulariaceae	Flowering Plants	Plant
+Lepidostomatidae	Insects	Animal
+Lepidoziaceae	Flowering Plants	Plant
+Leporidae	Mammals	Animal
+Leptoceridae	Insects	Animal
+Leptodactylidae	Amphibians	Animal
+Leptonetidae	Arachnids	Animal
+Leptophlebiidae	Insects	Animal
+Leskeaceae	Flowering Plants	Plant
+Leskeaceae	Lichens	Plant
+Leuctridae	Insects	Animal
+Libellulidae	Insects	Animal
+Liliaceae	Flowering Plants	Plant
+Limacidae	Snails	Animal
+Limnadiidae	Crustaceans	Animal
+Limnanthaceae	Flowering Plants	Plant
+Limnephilidae	Insects	Animal
+Linaceae	Flowering Plants	Plant
+Linderiellidae	Crustaceans	Animal
+Linderniaceae	Flowering Plants	Plant
+Littorinidae	Snails	Animal
+Loasaceae	Flowering Plants	Plant
+Loganiaceae	Flowering Plants	Plant
+Lomariopsidaceae	Ferns and Allies	Plant
+Loranthaceae	Flowering Plants	Plant
+Lorisidae	Mammals	Animal
+Lucanidae	Insects	Animal
+Lycaenidae	Insects	Animal
+Lycopodiaceae	Flowering Plants	Plant
+Lycopodiaceae	Ferns and Allies	Plant
+Lycosidae	Arachnids	Animal
+Lygaeidae	Insects	Animal
+Lymnaeidae	Snails	Animal
+Lymphiidae	Arachnids	Animal
+Lythraceae	Flowering Plants	Plant
+Machilidae	Insects	Animal
+Macromiidae	Insects	Animal
+Macropodidae	Mammals	Animal
+Macroveliidae	Insects	Animal
+Mactridae	Clams	Animal
+Magnoliaceae	Flowering Plants	Plant
+Malpighiaceae	Flowering Plants	Plant
+Malvaceae	Flowering Plants	Plant
+Manidae	Mammals	Animal
+Margaritiferidae	Clams	Animal
+Marsileaceae	Ferns and Allies	Plant
+Martyniaceae	Flowering Plants	Plant
+Meandrinidae	Corals	Animal
+Megachilidae	Insects	Animal
+Megapodiidae	Birds	Animal
+Megascolecidae	Annelid Worms	Animal
+Megathymidae	Insects	Animal
+Megomphicidae	Snails	Animal
+Megophicidae	Snails	Animal
+Melastomataceae	Flowering Plants	Plant
+Melephagidae	Birds	Animal
+Meliaceae	Flowering Plants	Plant
+Meliphagidae	Birds	Animal
+Melittidae	Insects	Animal
+Meloidae	Insects	Animal
+Melongenidae	Snails	Animal
+Menispermaceae	Flowering Plants	Plant
+Mephitidae	Mammals	Animal
+Merulinidae	Corals	Animal
+Mesoveliidae	Insects	Animal
+Milleporidaeâ 	Corals	Animal
+Mimidae	Birds	Animal
+Mimosaceae	Flowering Plants	Plant
+Miridae	Insects	Animal
+Mniaceae	Flowering Plants	Plant
+Mobulidae	Fishes	Animal
+Moerisiidae	Hydroids	Animal
+Molossidae	Mammals	Animal
+Monarchidae	Birds	Animal
+Monodontidae	Mammals	Animal
+Mormoopidae	Mammals	Animal
+Motacillidae	Birds	Animal
+Muridae	Mammals	Animal
+Muscicapidae	Birds	Animal
+Muscucapidae	Birds	Animal
+Musophagidae	Birds	Animal
+Mussidae	Corals	Animal
+Mustelidae	Mammals	Animal
+Mutillidae	Insects	Animal
+Mycoporaceae	Lichens	Plant
+Mydidae	Insects	Animal
+Myoporaceae	Flowering Plants	Plant
+Myricaceae	Flowering Plants	Plant
+Myrmecobidae	Mammals	Animal
+Myrmeleontidae	Insects	Animal
+Myrsinaceae	Flowering Plants	Plant
+Myrtaceae	Flowering Plants	Plant
+Mystacinidae	Mammals	Animal
+Najadaceae	Flowering Plants	Plant
+Namaceae	Flowering Plants	Plant
+Natalidae	Mammals	Animal
+Naucoridae	Insects	Animal
+Nautilidae	Snails	Animal
+Nectariniidae	Birds	Animal
+Nemouridae	Insects	Animal
+Neobisiidae	Arachnids	Animal
+Neothrombiidae	Arachnids	Animal
+Nepticulidae	Insects	Animal
+Neritidae	Snails	Animal
+Nesticidae	Arachnids	Animal
+Noctuidae	Insects	Animal
+Notodontidae	Insects	Animal
+Nyctaginaceae	Flowering Plants	Plant
+Nymphaeaceae	Flowering Plants	Plant
+Nymphalidae	Insects	Animal
+Nyssaceae	Flowering Plants	Plant
+Ochotonidae	Mammals	Animal
+Odobenidae	Mammals	Animal
+Odontoceridae	Insects	Animal
+Odontophoridae	Birds	Animal
+Oecophoridae	Insects	Animal
+Olacaceae	Flowering Plants	Plant
+Oleaceae	Flowering Plants	Plant
+Olethreutidae	Insects	Animal
+Oligoneuridae	Insects	Animal
+Oligoneuriidae	Insects	Animal
+Onagraceae	Flowering Plants	Plant
+Oncopoduridae	Insects	Animal
+Ophioglossaceae	Ferns and Allies	Plant
+Opiliones	Arachnids	Animal
+Orchidaceae	Flowering Plants	Plant
+Oreohelicidae	Snails	Animal
+Orobanchaceae	Flowering Plants	Plant
+Orthotrichaceae	Flowering Plants	Plant
+Osmeridae	Fishes	Animal
+Osmeroidei	Fishes	Animal
+Osteoglossidae	Fishes	Animal
+Otariidae	Mammals	Animal
+Otidae	Birds	Animal
+Otididae	Birds	Animal
+Palaemonidae	Crustaceans	Animal
+Pandionidae	Birds	Animal
+Pangasiidae	Fishes	Animal
+Pannariaceae	Lichens	Plant
+Papaveraceae	Flowering Plants	Plant
+Papilionidae	Insects	Animal
+Paridae	Birds	Animal
+Parmeliaceae	Lichens	Plant
+Partulidae	Snails	Animal
+Parulidae	Birds	Animal
+Passerellidae	Birds	Animal
+Passifloraceae	Flowering Plants	Plant
+Pectiniidae	Corals	Animal
+Pedionomidae	Birds	Animal
+Pelecanidae	Birds	Animal
+Pelicanidae	Birds	Animal
+Pelobatidae	Amphibians	Animal
+Pelomedusidae	Reptiles	Animal
+Peltoperlidae	Insects	Animal
+Pentatomidae	Insects	Animal
+Peramelidae	Mammals	Animal
+Percidae	Fishes	Animal
+Perlidae	Insects	Animal
+Perlodidae	Insects	Animal
+Petromyszontidae	Fishes	Animal
+Petromyzontidae	Fishes	Animal
+Peucedramidae	Birds	Animal
+Phaethontidae	Birds	Animal
+Phalacrocoracidae	Birds	Animal
+Phalangeridae	Mammals	Animal
+Phalangodidae	Arachnids	Animal
+Phaloniidae	Insects	Animal
+Phascolarctidae	Mammals	Animal
+Phascolomydae	Mammals	Animal
+Phasianidae	Birds	Animal
+Philomycidae	Snails	Animal
+Philomycidea	Snails	Animal
+Philopotamidae	Insects	Animal
+Philoptamidae	Insects	Animal
+Phocidae	Mammals	Animal
+Phocoenidae	Mammals	Animal
+Phoenicopteridae	Birds	Animal
+Phrymaceae	Flowering Plants	Plant
+Phrynosomatidae	Reptiles	Animal
+Phyllanthaceae	Flowering Plants	Plant
+Phylloscopidae	Birds	Animal
+Phyllostomidae	Mammals	Animal
+Physciaceae	Lichens	Plant
+Physciaceae	Flowering Plants	Plant
+Physeteridae	Mammals	Animal
+Physidae	Snails	Animal
+Phytolaccaceae	Flowering Plants	Plant
+Piciadae	Birds	Animal
+Picidae	Birds	Animal
+Pieridae	Insects	Animal
+Pinaceae	Conifers and Cycads	Plant
+Piperaceae	Flowering Plants	Plant
+Pittidae	Birds	Animal
+Pittosporaceae	Flowering Plants	Plant
+Plagiochilaceae	Flowering Plants	Plant
+Planariidae	Flatworms and Roundworms	Animal
+Planorbidae	Snails	Animal
+Plantaginaceae	Flowering Plants	Plant
+Platanistidae	Mammals	Animal
+Plethodontidae	Amphibians	Animal
+Pleuroceridae	Snails	Animal
+Ploceidae	Birds	Animal
+Plumbaginaceae	Flowering Plants	Plant
+Plutellidae	Insects	Animal
+Poaceae	Flowering Plants	Plant
+Pocilloporidaeâ 	Corals	Animal
+Podicipedidae	Birds	Animal
+Podocopedidae	Birds	Animal
+Poeciliidae	Fishes	Animal
+Polemoniaceae	Flowering Plants	Plant
+Polgyridae	Snails	Animal
+Polycentropidae	Insects	Animal
+Polycentropodidae	Insects	Animal
+Polydesmidae	Insects	Animal
+Polydesmidae	Millipedes	Animal
+Polygalaceae	Flowering Plants	Plant
+Polygonaceae	Flowering Plants	Plant
+Polygyridae	Snails	Animal
+Polygyridae	Flowering Plants	Plant
+Polyodontidae	Fishes	Animal
+Polypodiaceae	Ferns and Allies	Plant
+Pongidae	Mammals	Animal
+Porellaceae	Flowering Plants	Plant
+Poritidaeâ 	Corals	Animal
+Portulacaceae	Flowering Plants	Plant
+Potamogetonaceae	Flowering Plants	Plant
+Potaridae	Snails	Animal
+Pottiaceae	Flowering Plants	Plant
+Pottiaceae	Lichens	Plant
+Primulaceae	Flowering Plants	Plant
+Pristidae	Fishes	Animal
+Pristilomatidae	Snails	Animal
+Procaridae	Crustaceans	Animal
+Procarididae	Crustaceans	Animal
+Procellariidae	Birds	Animal
+Procellidae	Birds	Animal
+Procyonidae	Mammals	Animal
+Proteidae	Amphibians	Animal
+Proterhinidae	Insects	Animal
+Pselaphidae	Insects	Animal
+Pselaphidaeae	Insects	Animal
+Psephenidae	Insects	Animal
+Pseudococcidae	Insects	Animal
+Pseudogarypidae	Arachnids	Animal
+Psittacidae	Birds	Animal
+Psychodidae	Insects	Animal
+Psychomyidae	Insects	Animal
+Psychomyiidae	Insects	Animal
+Psyllidae	Insects	Animal
+Pteridaceae	Ferns and Allies	Plant
+Pteropidae	Mammals	Animal
+Pteropodidae	Mammals	Animal
+Pupillidae	Snails	Animal
+Pupilloidea	Snails	Animal
+Pycnonotidae	Birds	Animal
+Pyralidae	Insects	Animal
+Pyrgulopsis	Snails	Animal
+Rafflesiaceae	Flowering Plants	Plant
+Rallidae	Birds	Animal
+Ramphastidae	Birds	Animal
+Ranidae	Amphibians	Animal
+Ranunculaceae	Flowering Plants	Plant
+Recurvirostridae	Birds	Animal
+Reduviidae	Insects	Animal
+Remizidae	Birds	Animal
+Rhamnaceae	Flowering Plants	Plant
+Rhaphidophoridae	Insects	Animal
+Rheidae	Birds	Animal
+Rhinobatidae	Fishes	Animal
+Rhinocerotidae	Mammals	Animal
+Rhinocryptidae	Birds	Animal
+Rhinolophidae	Mammals	Animal
+Rhipiduridae	Birds	Animal
+Rhopalidae	Insects	Animal
+Rhyacophilidae	Insects	Animal
+Rhyacotriton	Amphibians	Animal
+Rhyacotritonidae	Amphibians	Animal
+Rhynochetidae	Birds	Animal
+Ricciaceae	Flowering Plants	Plant
+Ricciaceae	Lichens	Plant
+Riodinidae	Insects	Animal
+Roasceae	Flowering Plants	Plant
+Roccellaceae	Flowering Plants	Plant
+Rosaceae	Flowering Plants	Plant
+Rubiaceae	Flowering Plants	Plant
+Ruppiaceae	Flowering Plants	Plant
+Rutaceae	Flowering Plants	Plant
+Salamadridae	Amphibians	Animal
+Salamandridae	Amphibians	Animal
+Saldidae	Insects	Animal
+Salicaceae	Flowering Plants	Plant
+Salmonidae	Fishes	Animal
+Santalaceae	Flowering Plants	Plant
+Sapindaceae	Flowering Plants	Plant
+Sapotaceae	Flowering Plants	Plant
+Sapotoceae	Flowering Plants	Plant
+Sarraceniaceae	Flowering Plants	Plant
+Saturniidae	Insects	Animal
+Satyridae	Insects	Animal
+Saxifragaceae	Flowering Plants	Plant
+Scaphiopodidae	Amphibians	Animal
+Scarabaeidae	Insects	Animal
+Schisandraceae	Flowering Plants	Plant
+Schizaeaceae	Ferns and Allies	Plant
+Sciaenidae	Fishes	Animal
+Scincidae	Reptiles	Animal
+Sciuridae	Mammals	Animal
+Scolopacidae	Birds	Animal
+Scrophulariaceae	Flowering Plants	Plant
+Scutellaridae	Insects	Animal
+Scythrididae	Insects	Animal
+Sebastidae	Fishes	Animal
+Sebidae	Crustaceans	Animal
+Selaginellaceae	Lichens	Plant
+Selaginellaceae	Ferns and Allies	Plant
+Sericostomatidae	Insects	Animal
+Serranidae	Fishes	Animal
+Sesiidae	Insects	Animal
+Siderastreidae	Corals	Animal
+Silphidae	Insects	Animal
+Siphlonuridae	Insects	Animal
+Sirenidae	Amphibians	Animal
+Sittidae	Birds	Animal
+Solanaceae	Flowering Plants	Plant
+Solanaceae	Birds	Animal
+Solenodontidae	Mammals	Animal
+Soricidae	Mammals	Animal
+Sphaeriidae	Clams	Animal
+Sphaeromatidae	Crustaceans	Animal
+Sphecidae	Insects	Animal
+Spheniscidae	Birds	Animal
+Sphenodontidae	Reptiles	Animal
+Sphingidae	Insects	Animal
+Sphyrnidae	Fishes	Animal
+Spiraxidae	Snails	Animal
+Spongillidae	Sponges	Animal
+Squatinidae	Fishes	Animal
+Staphylinidae	Insects	Animal
+Stemonaceae	Flowering Plants	Plant
+Stenopelmatidae	Insects	Animal
+Stercorariidae	Birds	Animal
+Sterculiaceae	Flowering Plants	Plant
+Stereocaulaceae	Lichens	Plant
+Streptocephalidae	Crustaceans	Animal
+Strigidae	Birds	Animal
+Struthionidae	Birds	Animal
+Sturnidae	Birds	Animal
+Stylommataphora	Snails	Animal
+Styracaceae	Flowering Plants	Plant
+Succineidae	Snails	Animal
+Suidae	Mammals	Animal
+Sulidae	Birds	Animal
+Syarinidae	Arachnids	Animal
+Sylviidae	Birds	Animal
+Syngnathidae	Fishes	Animal
+Syrphidae	Insects	Animal
+Tabanidae	Insects	Animal
+Taeniopterygidae	Insects	Animal
+Talitridae	Crustaceans	Animal
+Talpidae	Mammals	Animal
+Tapiridae	Mammals	Animal
+Tarsiidae	Mammals	Animal
+Taxaceae	Conifers and Cycads	Plant
+Teiidae	Reptiles	Animal
+Telemidae	Arachnids	Animal
+Teloschistaceae	Flowering Plants	Plant
+Tenebrionidae	Insects	Animal
+Tephritidae	Insects	Animal
+Testudinidae	Reptiles	Animal
+Tetragnathidae	Arachnids	Animal
+Tetrigidae	Insects	Animal
+Tettigoniidae	Insects	Animal
+Thamnocephalidae	Crustaceans	Animal
+Thamnophilidae	Birds	Animal
+Theaceae	Flowering Plants	Plant
+Thelypteridaceae	Ferns and Allies	Plant
+Theophrastaceae	Flowering Plants	Plant
+Theraphosidae	Arachnids	Animal
+Theridiidae	Arachnids	Animal
+Thraupidae	Birds	Animal
+Threskiornithidae	Birds	Animal
+Thresliornithidae	Birds	Animal
+Thymelaeaceae	Flowering Plants	Plant
+Tinamidae	Birds	Animal
+Tingidae	Insects	Animal
+Tingupidae	Millipedes	Animal
+Tischeriidae	Insects	Animal
+Tomoceridae	Insects	Animal
+Tortricidae	Insects	Animal
+Triaenonychidae	Arachnids	Animal
+Triakidae	Fishes	Animal
+Trichechidae	Mammals	Animal
+Trichoniscidae	Crustaceans	Animal
+Trichoniscoidae	Crustaceans	Animal
+Trionychidae	Reptiles	Animal
+Trochilidae	Birds	Animal
+Trochomorphidae	Snails	Animal
+Troglodytidae	Birds	Animal
+Trogonidae	Birds	Animal
+Turdidae	Birds	Animal
+Tyrannidae	Birds	Animal
+Tytonidae	Birds	Animal
+Umbridae	Fishes	Animal
+Unionidae	Clams	Animal
+Urocoptidae	Snails	Animal
+Ursidae	Mammals	Animal
+Urticaceae	Flowering Plants	Plant
+Valerianaceae	Flowering Plants	Plant
+Valvatidae	Snails	Animal
+Valvatudae	Snails	Animal
+Vangidae	Birds	Animal
+Varanidae	Reptiles	Animal
+Varunidae	Crustaceans	Animal
+Vejovidae	Arachnids	Animal
+Verbenaceae	Flowering Plants	Plant
+Verrucariaceae	Lichens	Plant
+Vespertilionidae	Mammals	Animal
+Vespertilionidae	Birds	Animal
+Vespidae	Insects	Animal
+Violaceae	Flowering Plants	Plant
+Viperidae	Reptiles	Animal
+Vireonidae	Birds	Animal
+Viverridae	Mammals	Animal
+Viviparidae	Snails	Animal
+Woodsiaceae	Ferns and Allies	Plant
+Woosiaceae	Ferns and Allies	Plant
+Xantusiidae	Reptiles	Animal
+Xenicidae	Birds	Animal
+Xyridaceae	Flowering Plants	Plant
+Zapodidae	Mammals	Animal
+Zonitidae	Snails	Animal
+Zorotypidae	Insects	Animal
+Zosteropidae	Birds	Animal
+Zygophyllaceae	Flowering Plants	Plant
+Carcharhinidae	Fishes	Animal
