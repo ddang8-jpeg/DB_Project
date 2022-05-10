@@ -129,7 +129,17 @@ INTO TABLE Refuges
 FIELDS TERMINATED BY '\t'
 IGNORE 1 LINES;
 
---Procedures-------------------------------------------
+
+-------------------------------------------
+
+update DelistedSpecies set Delisting_date = DATE_FORMAT(STR_TO_DATE(delisting_date, '%m/%d/%Y'),'%Y-%m-%d');
+ALTER TABLE DelistedSpecies Modify Delisting_Date DATE NULL;
+
+update DelistedSpecies set Listing_date = DATE_FORMAT(STR_TO_DATE(listing_date, '%m/%d/%Y'),'%Y-%m-%d');
+ALTER TABLE DelistedSpecies Modify Listing_Date DATE NULL;
+
+update ListedSpecies set Listing_date = DATE_FORMAT(STR_TO_DATE(listing_date, '%m/%d/%Y'),'%Y-%m-%d');
+ALTER TABLE ListedSpecies Modify Listing_Date DATE NULL;
 
 DELIMITER //
 
@@ -138,13 +148,44 @@ CREATE PROCEDURE ShowSpeciesRegionRange(IN id VARCHAR(5))
 BEGIN
 
 SELECT S.Division, COUNT(C.Species_id) 
-
 FROM CurrentRange AS C JOIN States AS S 
 ON C.State_Code = S.State_Code
-WHERE C.species_id = id
-GROUP BY S.Division ; 
+WHERE C.species_id = var
+GROUP BY S.Division;
 
-END; //
+END; 
+
+--
+
+DROP PROCEDURE IF EXISTS ShowSpeciesRefuges //
+CREATE PROCEDURE ShowSpeciesRefuges(IN id VARCHAR(5))
+BEGIN
+
+SELECT R.Refuge_Name
+FROM Refuge AS R JOIN Refuges AS E 
+ON R.Refuge_ID = E.Refuge_ID
+WHERE C.species_id = id;
+
+END;
+
+--
+
+DROP PROCEDURE IF EXISTS  ShowRangeSpeciesGroups//
+CREATE PROCEDURE ShowRangeSpeciesGroups(IN var VARCHAR(100))
+BEGIN
+
+SELECT S.Tax_Group, COUNT(Species_id)
+FROM Species AS S JOIN CurrentRange AS C JOIN States AS T 
+ON S.Species_ID = C.Species_ID AND C.State_Code = T.State_Code
+WHERE T.State_Code = var OR T.State_Name = var OR T.Region = var OR T.Division = var
+GROUP BY S.Tax_Group
+ORDER BY COUNT(Species_id);
+
+END;
+
+--
+
+//
 
 
-DELIMITER ;
+DELIMITER;
