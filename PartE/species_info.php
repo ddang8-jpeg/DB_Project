@@ -11,20 +11,24 @@
 	ini_set('error_reporting', E_ALL);
 	ini_set('display_errors', true);
 
-	$item = $_POST['item'];
+	$id = $_POST['id'];
 
 	echo "<h2>Species Information</h2>";
 	echo "Species ID: ";
 
-	if (empty($item)) {
+	if (empty($id)) {
 		echo "empty <br><br>";
 	} else {
 
-		echo $item . "<br><br>";
+		echo $id . "<br><br>";
 
-		if ($stmt = $conn->prepare("CALL GetSpeciesInfo(?)")) {
+		if ($stmt = $conn->prepare(
+			"SELECT * ".
+			"FROM Species ".
+			"WHERE species_id = ? ;"
+			)) {
 
-			$stmt->bind_param("s", $item);
+			$stmt->bind_param("s", $id);
 
 			if ($stmt->execute()) {
 
@@ -45,10 +49,8 @@
 
 
 					$row = $result->fetch_row();
-					for ($i = 0; $i < 7; $i++) {
-						echo "<tr>";
+					for ($i = 0; $i < 8; $i++) {
 						echo "<td>" . $row[$i] . "</td>";
-						echo "<\tr>";
 					}
 
 					echo "</table>";
