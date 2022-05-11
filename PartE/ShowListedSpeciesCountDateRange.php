@@ -47,7 +47,6 @@
 				$dateIndex = $var1 . "-01-01";
 
 				$result->free_result();
-				$stmt->close();
 			} else {
 				echo "No Species found";
 			}
@@ -105,6 +104,7 @@
 
 
 		echo "</table>";
+		$stmt->close();
 	} else {
 
 		echo "Prepare failed.<br>";
