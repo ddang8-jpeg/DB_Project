@@ -11,7 +11,8 @@
 
 	$var1 = $_POST['var1'];
 	$var2 = $_POST['var2'];
-	$dateIndex = $var1;
+	$dateIndex = date($var1);
+	$end = date($var2);
 
 	echo "<h2>Species Information</h2>";
 	echo "Refuge Name: ";
@@ -52,7 +53,7 @@
 					}
 					$dateIndex = date('Y-m-d', strtotime($Date . ' + 1 year'));
 
-					while ($dateIndex < $var2) {
+					while ($dateIndex < $end) {
 						if ($stmt->execute()) {
 
 							$result = $stmt->get_result();
