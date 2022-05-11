@@ -22,7 +22,7 @@
 		echo $var1 . "<br>";
 		echo $var2 . "<br><br>";
 
-		if ($stmt = $conn->prepare("CALL ShowListedSpeciesDateRange(?)")) {
+		if ($stmt = $conn->prepare("CALL ShowListedSpeciesDateRange(?, ?)")) {
 
 			$stmt->bind_param("ss", $var1, $var2);
 
