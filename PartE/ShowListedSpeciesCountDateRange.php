@@ -49,12 +49,14 @@
 				$result->free_result();
 				$stmt->close();
 			} else {
-
-				echo "Prepare failed.<br>";
-				$error = $conn->errno . ' ' . $conn->error;
-				echo $error;
+				echo "No Species found";
 			}
-			/*
+		} else {
+
+			echo "Execute failed.<br>";
+		}
+
+		/*
 					while ($dateIndex < $end) {
 						if ($stmt->execute()) {
 
@@ -78,39 +80,37 @@
 					}
 
 */
+
+
+		echo $dateIndex;
+		if ($stmt->execute()) {
+
+			$result = $stmt->get_result();
+
+			if (($result) && ($result->num_rows != 0)) {
+				$row = $result->fetch_row();
+				echo "<td>" . $var1 . "</td>";
+				echo "<td>" . $row[0] . "</td>";
+			} else {
+				echo "<td>" . $var1 . "</td>";
+				echo "<td>0</td>";
+			}
+
+			$result->free_result();
+			$var1++;
+			$dateIndex = $var1 . "-01-01";
 		} else {
-			echo "No Species found";
+			echo $dateIndex . " execute failed.<br>";
 		}
+
+
+		echo "</table>";
 	} else {
 
-		echo "Execute failed.<br>";
+		echo "Prepare failed.<br>";
+		$error = $conn->errno . ' ' . $conn->error;
+		echo $error;
 	}
-
-	echo $dateIndex;
-	if ($stmt->execute()) {
-
-		$result = $stmt->get_result();
-
-		if (($result) && ($result->num_rows != 0)) {
-			$row = $result->fetch_row();
-			echo "<td>" . $var1 . "</td>";
-			echo "<td>" . $row[0] . "</td>";
-		} else {
-			echo "<td>" . $var1 . "</td>";
-			echo "<td>0</td>";
-		}
-
-		$result->free_result();
-		$var1++;
-		$dateIndex = $var1 . "-01-01";
-	} else {
-		echo $dateIndex . " execute failed.<br>";
-	}
-
-
-	echo "</table>";
-
-
 	$conn->close();
 	?>
 </body>
