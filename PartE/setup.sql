@@ -143,48 +143,116 @@ ALTER TABLE ListedSpecies Modify Listing_Date DATE NULL;
 
 DELIMITER //
 
-DROP PROCEDURE IF EXISTS ShowSpeciesRegionRange //
-CREATE PROCEDURE ShowSpeciesRegionRange(IN id VARCHAR(5))
+-- Given portion of scientific or common name, find all species
+DROP PROCEDURE IF EXISTS FindSpeciesName //
+CREATE PROCEDURE FindSpecies(IN var VARCHAR(100))
+BEGIN
+
+SELECT *
+FROM Species AS S
+WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
+
+END; 
+
+--Given a portion of delisting reason, find all delisted species with matching reason.
+DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedReason //
+CREATE PROCEDURE ShowSpeciesDelistedReason(IN var VARCHAR(100))
+BEGIN
+
+SELECT S.species_id, S.Scientific_Name, D.delisting_date, D.Delisting_Reason
+FROM Species AS S JOIN DelistedSpecies AS D
+ON S.species_id = D.species_id 
+WHERE D.Delisting_Reason LIKE CONCAT('%', var, '%');
+
+END;
+
+-- Given species id, find number of species are in each division.
+DROP PROCEDURE IF EXISTS ShowRegionRangeSpecies //
+CREATE PROCEDURE ShowRegionRangeSpecies(IN var VARCHAR(100))
 BEGIN
 
 SELECT S.Division, COUNT(C.Species_id) 
 FROM CurrentRange AS C JOIN States AS S 
 ON C.State_Code = S.State_Code
-WHERE C.species_id = var
+WHERE C.species_id = var 
 GROUP BY S.Division;
 
 END; 
 
---
-
-DROP PROCEDURE IF EXISTS ShowSpeciesRefuges //
-CREATE PROCEDURE ShowSpeciesRefuges(IN id VARCHAR(5))
+--Given species id, find all refuges with species
+DROP PROCEDURE IF EXISTS ShowRefugesSpecies //
+CREATE PROCEDURE ShowRefugesSpecies(IN var VARCHAR(5))
 BEGIN
 
 SELECT R.Refuge_Name
 FROM Refuge AS R JOIN Refuges AS E 
 ON R.Refuge_ID = E.Refuge_ID
-WHERE C.species_id = id;
+WHERE E.species_id = var;
 
 END;
 
---
-
-DROP PROCEDURE IF EXISTS  ShowRangeSpeciesGroups//
-CREATE PROCEDURE ShowRangeSpeciesGroups(IN var VARCHAR(100))
+--Given species range, list all species group count
+DROP PROCEDURE IF EXISTS  ShowSpeciesGroupsRange //
+CREATE PROCEDURE ShowSpeciesGroupsRange(IN var VARCHAR(100))
 BEGIN
 
-SELECT S.Tax_Group, COUNT(Species_id)
+SELECT S.Tax_Group, COUNT(S.Species_id)
 FROM Species AS S JOIN CurrentRange AS C JOIN States AS T 
 ON S.Species_ID = C.Species_ID AND C.State_Code = T.State_Code
 WHERE T.State_Code = var OR T.State_Name = var OR T.Region = var OR T.Division = var
 GROUP BY S.Tax_Group
-ORDER BY COUNT(Species_id);
+ORDER BY COUNT(S.Species_id) DESC;
 
 END;
 
---
+--Given a date range, list all of the species that were delisted after the given year.
 
+DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedAfterDate //
+CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
+BEGIN
+
+SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.*
+FROM Species AS S JOIN DelistedSpecies AS D
+ON S.species_id = D.species_id AND D.delisting_date > var;
+
+END;
+
+--Given a date range, list all species that were listed then. 
+DROP PROCEDURE IF EXISTS  ShowListedSpeciesDateRange //
+CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var1 DATE, IN var2 DATE)
+BEGIN
+
+SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.Listing_date AS LDate
+FROM Species AS S JOIN DelistedSpecies AS D
+ON S.species_id = D.species_id 
+WHERE D.Listing_date > var1 AND D.Listing_Date < var2 AND D.Delisting_Date > var2AND D.Delisting_Date > var2;
+UNION
+SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, L.Listing_date AS LDate
+FROM Species AS S JOIN ListedSpecies AS L
+ON S.species_id = L.species_id 
+WHERE L.Listing_date > var1 AND L.Listing_date < var2;
+
+
+END;
+
+--Given a date, list count of all currently species since.
+DROP PROCEDURE IF EXISTS  ShowListedSpeciesCountDateRange //
+CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
+BEGIN
+
+WITH listedSpeciesDates (species_id) AS (
+SELECT D.species_id
+FROM DelistedSpecies AS D
+WHERE D.listing_date <= var AND D.Delisting_Date > var
+UNION
+SELECT L.species_id
+FROM ListedSpecies AS L
+WHERE L.Listing_date <= var)
+
+SELECT COUNT(species_id)
+FROM listedSpeciesDates;
+
+END;
 //
 
 
