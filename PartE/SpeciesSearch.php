@@ -45,7 +45,8 @@
 
 
 					$row = $result->fetch_row();
-					for ($i = 0; $i < 7; $i++) {
+					$col = $result->field_count();
+					for ($i = 0; $i < $col; $i++) {
 						echo "<tr>";
 						echo "<td>" . $row[$i] . "</td>";
 						echo "<\tr>";
