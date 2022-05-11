@@ -1,5 +1,5 @@
 
-<head><title>PHP PreparedStatement example</title></head>
+<head><title>Inserting New Specie</title></head>
 <body>
 
 <?php
