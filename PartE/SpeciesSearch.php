@@ -47,7 +47,7 @@
 
 					$col = $result->field_count;
 
-					while (null !== ($row = $res->fetch_assoc())) {
+					while (null !== ($row = $result->fetch_assoc())) {
 						echo "<tr>";
 						for ($i = 0; $i < $col; $i++) {
 							echo "<td>" . $row[$i] . "</td>";
