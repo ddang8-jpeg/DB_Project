@@ -53,6 +53,8 @@
 					}
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
+					$result->free_result();
+
 					while ($dateIndex < $end) {
 						if ($stmt->execute()) {
 
@@ -78,7 +80,6 @@
 				} else {
 					echo "No Species found";
 				}
-				$result->free_result();
 			} else {
 
 				echo "Execute failed.<br>";
