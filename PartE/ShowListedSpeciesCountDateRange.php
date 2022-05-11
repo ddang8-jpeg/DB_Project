@@ -51,7 +51,7 @@
 						}
 						echo "</tr>";
 					}
-					$dateIndex = date('Y-m-d', strtotime($Date . ' + 1 year'));
+					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
 					while ($dateIndex < $end) {
 						if ($stmt->execute()) {
@@ -71,7 +71,7 @@
 							echo $dateIndex . " execute failed.<br>";
 						}
 
-						$dateIndex = date('Y-m-d', strtotime($Date . ' + 1 year'));
+						$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 					}
 
 					echo "</table>";
