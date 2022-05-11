@@ -270,6 +270,36 @@ ON S.species_id = D.species_id AND D.delisting_date > var;
 
 END;
 
+/*Given a date, list count of all currently species since.*/
+DROP PROCEDURE IF EXISTS  ShowSpeciesListedBeforeDate //
+CREATE PROCEDURE ShowSpeciesListedBeforeDate(IN var DATE)
+BEGIN
+
+SELECT D.species_id, D.Listing_Date
+FROM DelistedSpecies AS D
+WHERE D.listing_date < var
+UNION
+SELECT L.species_id, L.Listing_Date
+FROM ListedSpecies AS L
+WHERE L.Listing_date < var;
+
+END;
+
+/*Given a date, list count of all currently species since.*/
+DROP PROCEDURE IF EXISTS  ShowSpeciesListedAfterDate //
+CREATE PROCEDURE ShowSpeciesListedAfterDate(IN var DATE)
+BEGIN
+
+SELECT D.species_id, D.Listing_Date
+FROM DelistedSpecies AS D
+WHERE D.listing_date > var
+UNION
+SELECT L.species_id, L.Listing_Date
+FROM ListedSpecies AS L
+WHERE L.Listing_date > var;
+
+END;
+
 /*Given a date range, list all species that were listed then. */
 DROP PROCEDURE IF EXISTS  ShowListedSpeciesDateRange //
 CREATE PROCEDURE ShowListedSpeciesDateRange(IN var1 DATE, IN var2 DATE)
