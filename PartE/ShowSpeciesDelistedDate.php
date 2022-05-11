@@ -19,7 +19,7 @@
 		echo "empty <br><br>";
 	} else {
 
-		echo $var . "<br><br>";
+		echo $var2 . "<br><br>";
 
 		if ($var1 == "Before") {
 			$stmt = $conn->prepare("CALL ShowSpeciesDelistedBeforeDate(?)");
