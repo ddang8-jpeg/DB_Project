@@ -1,5 +1,5 @@
 
-<head><title>Deleted</title></head>
+<head><title>Deleting Specie</title></head>
 <body>
 
 <?php
