@@ -250,7 +250,7 @@ END;
 
 /*Given a date range, list all of the species that were delisted before the given year.*/
 DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedBeforeDate //
-CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
+CREATE PROCEDURE ShowSpeciesDelistedBeforeDate(IN var DATE)
 BEGIN
 
 SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.*
