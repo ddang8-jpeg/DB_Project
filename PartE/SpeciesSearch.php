@@ -49,9 +49,9 @@
 
 					while (null !== ($row = $result->fetch_assoc())) {
 						echo "<tr>";
-						//for ($i = 0; $i < $col; $i++) {
-						echo "<td>" . $row['Species_ID'] . "</td>";
-						//}
+						foreach ($flist as $fname) {
+							echo "<td>" . $row[$fname->name] . "</td>";
+						}
 						echo "</tr>";
 					}
 
