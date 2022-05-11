@@ -50,34 +50,6 @@
 					$dateIndex = $var1 . "-01-01";
 
 					$result->free_result();
-
-
-					//	while ($dateIndex < $end) {
-					if ($stmt->execute()) {
-
-						$result = $stmt->get_result();
-
-						if (($result) && ($result->num_rows != 0)) {
-							$row = $result->fetch_row();
-							echo "<td>" . $var1 . "</td>";
-							echo "<td>" . $row[0] . "</td>";
-						} else {
-							echo "<td>" . $var1 . "</td>";
-							echo "<td>0</td>";
-						}
-
-						$result->free_result();
-						$var1++;
-						$dateIndex = $var1 . "-01-01";
-					} else {
-						echo $dateIndex . " execute failed.<br>";
-					}
-					//	}
-
-
-
-
-					echo "</table>";
 				} else {
 					echo "No Species found";
 				}
@@ -85,6 +57,34 @@
 
 				echo "Execute failed.<br>";
 			}
+
+			//	while ($dateIndex < $end) {
+			if ($stmt->execute()) {
+
+				$result = $stmt->get_result();
+
+				if (($result) && ($result->num_rows != 0)) {
+					$row = $result->fetch_row();
+					echo "<td>" . $var1 . "</td>";
+					echo "<td>" . $row[0] . "</td>";
+				} else {
+					echo "<td>" . $var1 . "</td>";
+					echo "<td>0</td>";
+				}
+
+				$result->free_result();
+				$var1++;
+				$dateIndex = $var1 . "-01-01";
+			} else {
+				echo $dateIndex . " execute failed.<br>";
+			}
+			//	}
+
+
+
+
+			echo "</table>";
+
 
 			$stmt->close();
 		} else {
