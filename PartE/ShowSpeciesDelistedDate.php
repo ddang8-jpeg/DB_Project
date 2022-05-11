@@ -19,6 +19,7 @@
 		echo "empty <br><br>";
 	} else {
 
+		echo $var1 . "<br>";
 		echo $var2 . "<br><br>";
 
 		if ($var1 == 'Before') {
