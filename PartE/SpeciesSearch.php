@@ -45,12 +45,13 @@
 
 
 					$row = $result->fetch_row();
-					$col = $result->field_count();
+					$col = $result->field_count;
+					echo "<tr>";
 					for ($i = 0; $i < $col; $i++) {
-						echo "<tr>";
 						echo "<td>" . $row[$i] . "</td>";
-						echo "<\tr>";
 					}
+
+					echo "</tr>";
 
 					echo "</table>";
 				} else {
