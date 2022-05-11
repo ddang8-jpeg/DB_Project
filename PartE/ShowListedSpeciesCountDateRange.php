@@ -11,6 +11,7 @@
 
 	$var1 = $_POST['var1'];
 	$var2 = $_POST['var2'];
+	$dateIndex = $var1;
 
 	echo "<h2>Species Information</h2>";
 	echo "Refuge Name: ";
@@ -22,9 +23,9 @@
 		echo $var1 . "<br>";
 		echo $var2 . "<br><br>";
 
-		if ($stmt) {
+		if ($stmt = $conn->prepare("CALL ShowListedSpeciesCountDateRange(?)")) {
 
-			$stmt->bind_param("s", $var2);
+			$stmt->bind_param('s', $dateIndex);
 
 			if ($stmt->execute()) {
 
@@ -41,15 +42,20 @@
 					}
 					echo "</tr>";
 
-					$stmt->bind_param('s', $dateIndex);
+					$col = $result->field_count;
+					while (null !== ($row = $result->fetch_assoc())) {
+						echo "<tr>";
+						foreach ($flist as $fname) {
+							echo "<td>" . $row[$fname->name] . "</td>";
+						}
+						echo "</tr>";
+					}
+					$dateIndex = date('Y-m-d', strtotime($Date . ' + 1 year'));
 
-					for ($dateIndex = $var1; $dateIndex < $var2; $dateIndex = date('Y-m-d', strtotime($Date . ' + 10 days'))) {
+					while ($dateIndex < $var2) {
 						if ($stmt->execute()) {
 
-							echo "Finding items sold by 'cxgkk687' with starting price <= $200 ... <br>";
-
 							$result = $stmt->get_result();
-							$col = $result->field_count;
 
 							while (null !== ($row = $result->fetch_assoc())) {
 								echo "<tr>";
@@ -63,6 +69,8 @@
 						} else {
 							echo $dateIndex . " execute failed.<br>";
 						}
+
+						$dateIndex = date('Y-m-d', strtotime($Date . ' + 1 year'));
 					}
 
 					echo "</table>";
