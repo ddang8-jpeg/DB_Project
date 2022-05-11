@@ -1,0 +1,15 @@
+Members: 
+Derek Dang ddang8
+Maria Movsheva mmovshe1
+
+Modifications:
+changed the path of the import of the txt to be relative to the machine the code was on
+
+Process:
+
+Success:
+
+Known Issues:
+insertion error in php file , last minute changes impossible
+
+Extensions:
