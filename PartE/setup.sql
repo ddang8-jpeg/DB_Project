@@ -141,6 +141,17 @@ ALTER TABLE ListedSpecies Modify Listing_Date DATE NULL;
 
 DELIMITER //
 
+/*Find Species with species id*/
+DROP PROCEDURE IF EXISTS GetSpeciesInfo //
+CREATE PROCEDURE GetSpeciesInfo(IN var VARCHAR(100))
+BEGIN
+
+SELECT *
+FROM Species
+WHERE Species_ID = var;
+
+END; 
+
 /*Given portion of scientific or common name, find all species*/
 DROP PROCEDURE IF EXISTS FindSpeciesName //
 CREATE PROCEDURE FindSpeciesName(IN var VARCHAR(100))
@@ -186,6 +197,18 @@ SELECT R.Refuge_Name
 FROM Refuge AS R JOIN Refuges AS E 
 ON R.Refuge_ID = E.Refuge_ID
 WHERE E.species_id = var;
+
+END;
+
+/*Given species id, find all plans with species*/
+DROP PROCEDURE IF EXISTS ShowPlansSpecies //
+CREATE PROCEDURE ShowPlansSpecies(IN var VARCHAR(5))
+BEGIN
+
+SELECT R.Refuge_Name
+FROM Conservation AS C JOIN Planned AS P 
+ON C.Plan_ID = P.Plan_ID
+WHERE P.species_id = var;
 
 END;
 
