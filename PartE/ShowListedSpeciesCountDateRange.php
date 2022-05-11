@@ -21,8 +21,8 @@
 		echo "empty <br><br>";
 	} else {
 
-		echo $var1 . "<br>";
-		echo $var2 . "<br><br>";
+		echo $dateIndex . "<br>";
+		echo $end . "<br><br>";
 
 		if ($stmt = $conn->prepare("CALL ShowListedSpeciesCountDateRange(?)")) {
 
