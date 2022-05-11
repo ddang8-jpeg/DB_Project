@@ -43,7 +43,7 @@
 
 					$col = $result->field_count;
 					echo "<td>" . $dateIndex . "</td>";
-					echo "<td>" . $row['COUNT(species_id)'] . "</td>";
+					echo "<td>" . $row[0] . "</td>";
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
 					$result->free_result();
