@@ -57,7 +57,7 @@
 
 							$result = $stmt->get_result();
 
-							if ($result && ($result->num_rows != 0)) {
+							if (($result) && ($result->num_rows != 0)) {
 								$row = $result->fetch_row();
 								echo "<td>" . $var1 . "</td>";
 								echo "<td>" . $row[0] . "</td>";
