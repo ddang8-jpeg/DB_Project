@@ -218,7 +218,7 @@ END;
 
 ------Given a date range, list all species that were listed then. 
 DROP PROCEDURE IF EXISTS  ShowListedSpeciesDateRange //
-CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var1 DATE, IN var2 DATE)
+CREATE PROCEDURE ShowListedSpeciesDateRange(IN var1 DATE, IN var2 DATE)
 BEGIN
 
 SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.Listing_date AS LDate
@@ -236,7 +236,7 @@ END;
 
 ------Given a date, list count of all currently species since.
 DROP PROCEDURE IF EXISTS  ShowListedSpeciesCountDateRange //
-CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
+CREATE PROCEDURE ShowListedSpeciesCountDateRange(IN var DATE)
 BEGIN
 
 WITH listedSpeciesDates (species_id) AS (
