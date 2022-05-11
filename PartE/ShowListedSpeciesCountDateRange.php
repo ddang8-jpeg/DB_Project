@@ -54,19 +54,14 @@
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
 					$result->free_result();
-					/*
 					while ($dateIndex < $end) {
 						if ($stmt->execute()) {
 
 							$result = $stmt->get_result();
 
-							while (null !== ($row = $result->fetch_assoc())) {
-								echo "<tr>";
-								foreach ($flist as $fname) {
-									echo "<td>" . $row[$fname->name] . "</td>";
-								}
-								echo "</tr>";
-							}
+							echo "<tr>";
+							echo "<td>" . $row['COUNT(species_id'] . "</td>";
+							echo "</tr>";
 
 							$result->free_result();
 						} else {
@@ -75,7 +70,6 @@
 
 						$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 					}
-*/
 
 					echo "</table>";
 				} else {
