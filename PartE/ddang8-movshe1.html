@@ -4,20 +4,102 @@
    <body>
 
 
-	<h2> Demonstrate a prepared statement in PHP where value collected from user</h2>
+	<h2> 1. Input Scientific or common name to find all matching species </h2>
 	<form action="species_info.php" method="post">
-			SpeciesID: <input type="text" name="id">
+			SpeciesID: <input type="text" name="var">
 		<input type="submit">
 	</form>
 	<br/><br/>
 
-
-	<h2> Demonstrate reuse of a prepared statement in PHP</h2>
-	<form action="prepareoncerunlots.php">
-		<input type="submit" value="Go">
+	<h2> 2. Input Refuge name to find all matching refuges </h2>
+	<form action="species_info.php" method="post">
+			SpeciesID: <input type="text" name="var">
+		<input type="submit">
 	</form>
 	<br/><br/>
 
+	<h2> 3. Input Conservation Plan name to find all matching Plans </h2>
+	<form action="species_info.php" method="post">
+			SpeciesID: <input type="text" name="var">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 4. Input a species ID to find how many states the species is found in by each region </h2>
+	<form action="species_info.php" method="post">
+			SpeciesID: <input type="text" name="var">
+		<input type="submit">
+	</form>
+	<br/><br/>
+	
+	<h2> 5. Input a species ID to find all of the refuges it is located in </h2>
+	<form action="species_info.php" method="post">
+			SpeciesID: <input type="text" name="var">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 6. Input a species ID to find all of the currently planned conservation efforts it is inclulded in </h2>
+	<form action="species_info.php" method="post">
+			SpeciesID: <input type="text" name="var">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 7. Input a range (state, region, division) to find the count of all species groups </h2>
+	<form action="species_info.php" method="post">
+			SpeciesID: <input type="text" name="var">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 8. Input a date and a before or after to get all delisted species in timeframe</h2>
+	<form action="species_info.php" method="post">
+			Start Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			End Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 9. Input a date range to get all species delisted with timeframe</h2>
+	<form action="species_info.php" method="post">
+			Start Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			End Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 11. Input a date and a before or after to get all listed species in timeframe</h2>
+	<form action="species_info.php" method="post">
+			Start Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			End Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 12. Input a date range to get all species listed within time frame</h2>
+	<form action="species_info.php" method="post">
+			Start Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			End Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 13. Input a year range to get count of listed species by year </h2>
+	<form action="species_info.php" method="post">
+			Start Date: <input type="number" min="1967" max="2022" step="1" value="2022" />
+			End Date: <input type="number" min="1967" max="2022" step="1" value="2022" />	
+		<input type="submit">
+	</form>
+	<br/><br/>
+
+	<h2> 14. Input a year range to get count of delisted species by year  </h2>
+	<form action="species_info.php" method="post">
+			Start Date: <input type="number" min="1967" max="2022" step="1" value="2022" />
+			End Date: <input type="number" min="1967" max="2022" step="1" value="2022" />	
+		<input type="submit">
+	</form>
+	<br/><br/>
 
    </body>
 </html>
