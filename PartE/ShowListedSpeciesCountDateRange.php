@@ -11,8 +11,8 @@
 
 	$var1 = $_POST['var1'];
 	$var2 = $_POST['var2'];
-	$dateIndex = date($var1);
-	$end = date($var2);
+	$dateIndex = $var1 . "-01-01";
+	$end = $var2 . "-01-01";
 
 	echo "<h2>Species Information</h2>";
 	echo "Refuge Name: ";
