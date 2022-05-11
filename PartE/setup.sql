@@ -163,6 +163,28 @@ WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT(
 
 END; 
 
+/*Given portion of scientific or common name, find all species*/
+DROP PROCEDURE IF EXISTS FindRefugeName //
+CREATE PROCEDURE FindSpeciesName(IN var VARCHAR(100))
+BEGIN
+
+SELECT *
+FROM Species AS S
+WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
+
+END; 
+
+/*Given portion of scientific or common name, find all species*/
+DROP PROCEDURE IF EXISTS FindPlanName //
+CREATE PROCEDURE FindSpeciesName(IN var VARCHAR(100))
+BEGIN
+
+SELECT *
+FROM Species AS S
+WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
+
+END; 
+
 /*Given a portion of delisting reason, find all delisted species with matching reason.*/
 DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedReason //
 CREATE PROCEDURE ShowSpeciesDelistedReason(IN var VARCHAR(100))
