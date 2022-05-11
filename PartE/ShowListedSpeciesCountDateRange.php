@@ -22,12 +22,6 @@
 		echo $var1 . "<br>";
 		echo $var2 . "<br><br>";
 
-		if ($var1 == 'before') {
-			$stmt = $conn->prepare("CALL ShowSpeciesListedBeforeDate(?)");
-		} else {
-			$stmt = $conn->prepare("CALL ShowSpeciesListedAfterDate(?)");
-		}
-
 		if ($stmt) {
 
 			$stmt->bind_param("s", $var2);
