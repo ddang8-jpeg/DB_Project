@@ -14,7 +14,7 @@
 	$var = $_POST['var'];
 
 	echo "<h2>Species Information</h2>";
-	echo "Refuge Name: ";
+	echo "Species ID: ";
 
 	if (empty($var)) {
 		echo "empty <br><br>";
@@ -57,7 +57,7 @@
 
 					echo "</table>";
 				} else {
-					echo "No refuge found";
+					echo "No species found";
 				}
 				$result->free_result();
 			} else {
