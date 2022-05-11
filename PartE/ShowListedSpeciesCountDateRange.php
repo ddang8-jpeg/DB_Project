@@ -46,31 +46,34 @@
 					echo "<td>" . $row[0] . "</td>";
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
+					$var1++;
+					$dateIndex = $var1 . "-01-01";
+
 					$result->free_result();
 
 
-					/*while ($dateIndex < $end) {
-					if ($stmt->execute()) {
+					while ($dateIndex < $end) {
+						if ($stmt->execute()) {
 
-						$result = $stmt->get_result();
+							$result = $stmt->get_result();
 
-						if ($result && ($result->num_rows != 0)) {
-							echo "<tr>";
-							echo "<td>" . $row['COUNT(species_id)'] . "</td>";
-							echo "</tr>";
+							if ($result && ($result->num_rows != 0)) {
+								$row = $result->fetch_row();
+								echo "<td>" . $var1 . "</td>";
+								echo "<td>" . $row[0] . "</td>";
+							} else {
+								echo "<td>" . $var1 . "</td>";
+								echo "<td>0</td>";
+							}
+
+							$result->free_result();
+							$var1++;
+							$dateIndex = $var1 . "-01-01";
 						} else {
-							echo "<tr>";
-							echo "<td>" . $row['COUNT(species_id)'] . "</td>";
-							echo "</tr>";
+							echo $dateIndex . " execute failed.<br>";
 						}
-						$result->free_result();
-					} else {
-						echo $dateIndex . " execute failed.<br>";
 					}
 
-					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
-										}
-										*/
 
 
 
