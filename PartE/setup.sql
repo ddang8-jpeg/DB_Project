@@ -145,7 +145,7 @@ DELIMITER //
 
 -----Given portion of scientific or common name, find all species
 DROP PROCEDURE IF EXISTS FindSpeciesName //
-CREATE PROCEDURE FindSpecies(IN var VARCHAR(100))
+CREATE PROCEDURE FindSpeciesName(IN var VARCHAR(100))
 BEGIN
 
 SELECT *
