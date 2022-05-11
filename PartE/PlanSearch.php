@@ -14,7 +14,7 @@
 	$var = $_POST['var'];
 
 	echo "<h2>Species Information</h2>";
-	echo "Refuge Name: ";
+	echo "Plan Name: ";
 
 	if (empty($var)) {
 		echo "empty <br><br>";
@@ -22,7 +22,7 @@
 
 		echo $var . "<br><br>";
 
-		if ($stmt = $conn->prepare("CALL FindRefugeName(?)")) {
+		if ($stmt = $conn->prepare("CALL FindPlanName(?)")) {
 
 			$stmt->bind_param("s", $var);
 
