@@ -86,6 +86,7 @@
 		echo "Execute failed.<br>";
 	}
 
+	echo $dateIndex;
 	if ($stmt->execute()) {
 
 		$result = $stmt->get_result();
