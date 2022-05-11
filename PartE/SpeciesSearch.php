@@ -44,12 +44,15 @@
 					echo "</tr>";
 
 
-					$row = $result->fetch_row();
-					$col = $result->field_count();
-					for ($i = 0; $i < $col; $i++) {
+
+					$col = $result->field_count;
+
+					while (null !== ($row = $res->fetch_assoc())) {
 						echo "<tr>";
-						echo "<td>" . $row[$i] . "</td>";
-						echo "<\tr>";
+						for ($i = 0; $i < $col; $i++) {
+							echo "<td>" . $row[$i] . "</td>";
+						}
+						echo "</tr>";
 					}
 
 					echo "</table>";
