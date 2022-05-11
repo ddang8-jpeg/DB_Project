@@ -21,7 +21,7 @@
 
 		echo $var2 . "<br><br>";
 
-		if ($var1 == "Before") {
+		if ($var1 == 'Before') {
 			$stmt = $conn->prepare("CALL ShowSpeciesDelistedBeforeDate(?)");
 		} else {
 			$stmt = $conn->prepare("CALL ShowSpeciesDelistedAfterDate(?)");
