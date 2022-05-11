@@ -143,7 +143,7 @@ ALTER TABLE ListedSpecies Modify Listing_Date DATE NULL;
 
 DELIMITER //
 
--- Given portion of scientific or common name, find all species
+-----Given portion of scientific or common name, find all species
 DROP PROCEDURE IF EXISTS FindSpeciesName //
 CREATE PROCEDURE FindSpecies(IN var VARCHAR(100))
 BEGIN
@@ -154,7 +154,7 @@ WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT(
 
 END; 
 
---Given a portion of delisting reason, find all delisted species with matching reason.
+------Given a portion of delisting reason, find all delisted species with matching reason.
 DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedReason //
 CREATE PROCEDURE ShowSpeciesDelistedReason(IN var VARCHAR(100))
 BEGIN
@@ -166,7 +166,7 @@ WHERE D.Delisting_Reason LIKE CONCAT('%', var, '%');
 
 END;
 
--- Given species id, find number of species are in each division.
+------Given species id, find number of species are in each division.
 DROP PROCEDURE IF EXISTS ShowRegionRangeSpecies //
 CREATE PROCEDURE ShowRegionRangeSpecies(IN var VARCHAR(100))
 BEGIN
@@ -179,7 +179,7 @@ GROUP BY S.Division;
 
 END; 
 
---Given species id, find all refuges with species
+------Given species id, find all refuges with species
 DROP PROCEDURE IF EXISTS ShowRefugesSpecies //
 CREATE PROCEDURE ShowRefugesSpecies(IN var VARCHAR(5))
 BEGIN
@@ -191,7 +191,7 @@ WHERE E.species_id = var;
 
 END;
 
---Given species range, list all species group count
+------Given species range, list all species group count
 DROP PROCEDURE IF EXISTS  ShowSpeciesGroupsRange //
 CREATE PROCEDURE ShowSpeciesGroupsRange(IN var VARCHAR(100))
 BEGIN
@@ -205,8 +205,7 @@ ORDER BY COUNT(S.Species_id) DESC;
 
 END;
 
---Given a date range, list all of the species that were delisted after the given year.
-
+------Given a date range, list all of the species that were delisted after the given year.
 DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedAfterDate //
 CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
 BEGIN
@@ -217,7 +216,7 @@ ON S.species_id = D.species_id AND D.delisting_date > var;
 
 END;
 
---Given a date range, list all species that were listed then. 
+------Given a date range, list all species that were listed then. 
 DROP PROCEDURE IF EXISTS  ShowListedSpeciesDateRange //
 CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var1 DATE, IN var2 DATE)
 BEGIN
@@ -235,7 +234,7 @@ WHERE L.Listing_date > var1 AND L.Listing_date < var2;
 
 END;
 
---Given a date, list count of all currently species since.
+------Given a date, list count of all currently species since.
 DROP PROCEDURE IF EXISTS  ShowListedSpeciesCountDateRange //
 CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
 BEGIN
