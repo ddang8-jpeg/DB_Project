@@ -54,22 +54,26 @@
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
 					$result->free_result();
-					while ($dateIndex < $end) {
-						if ($stmt->execute()) {
 
-							$result = $stmt->get_result();
 
-							echo "<tr>";
-							echo "<td>" . $row['COUNT(species_id'] . "</td>";
-							echo "</tr>";
+					//while ($dateIndex < $end) {
+					if ($stmt->execute()) {
 
-							$result->free_result();
-						} else {
-							echo $dateIndex . " execute failed.<br>";
-						}
+						$result = $stmt->get_result();
 
-						$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
+						echo "<tr>";
+						echo "<td>" . $row['COUNT(species_id'] . "</td>";
+						echo "</tr>";
+
+						$result->free_result();
+					} else {
+						echo $dateIndex . " execute failed.<br>";
 					}
+
+					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
+					//					}
+
+
 
 					echo "</table>";
 				} else {
