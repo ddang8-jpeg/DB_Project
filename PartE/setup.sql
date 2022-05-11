@@ -165,23 +165,23 @@ END;
 
 /*Given portion of scientific or common name, find all species*/
 DROP PROCEDURE IF EXISTS FindRefugeName //
-CREATE PROCEDURE FindSpeciesName(IN var VARCHAR(100))
+CREATE PROCEDURE FindRefugeName(IN var VARCHAR(100))
 BEGIN
 
 SELECT *
-FROM Species AS S
-WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
+FROM Refuge AS R
+WHERE R.Refuge_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
 
 END; 
 
 /*Given portion of scientific or common name, find all species*/
 DROP PROCEDURE IF EXISTS FindPlanName //
-CREATE PROCEDURE FindSpeciesName(IN var VARCHAR(100))
+CREATE PROCEDURE FindPlanName(IN var VARCHAR(100))
 BEGIN
 
 SELECT *
-FROM Species AS S
-WHERE S.Scientific_Name LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
+FROM Conservation AS C
+WHERE C.Plan_Title LIKE CONCAT('%', var, '%') OR S.Common_Name LIKE CONCAT('%', var, '%');
 
 END; 
 
