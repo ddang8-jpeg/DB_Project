@@ -255,7 +255,8 @@ BEGIN
 
 SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.*
 FROM Species AS S JOIN DelistedSpecies AS D
-ON S.species_id = D.species_id AND D.delisting_date < var;
+ON S.species_id = D.species_id 
+WHERE D.delisting_date < var;
 
 END;
 
@@ -266,7 +267,8 @@ BEGIN
 
 SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.*
 FROM Species AS S JOIN DelistedSpecies AS D
-ON S.species_id = D.species_id AND D.delisting_date > var;
+ON S.species_id = D.species_id 
+WHERE D.delisting_date > var;
 
 END;
 
@@ -297,6 +299,18 @@ UNION
 SELECT L.species_id, L.Listing_Date
 FROM ListedSpecies AS L
 WHERE L.Listing_date > var;
+
+END;
+
+/*Given a date range, list all species that were delisted then. */
+DROP PROCEDURE IF EXISTS  ShowDelistedSpeciesDateRange //
+CREATE PROCEDURE ShowDelistedSpeciesDateRange(IN var1 DATE, IN var2 DATE)
+BEGIN
+
+SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.*
+FROM Species AS S JOIN DelistedSpecies AS D
+ON S.species_id = D.species_id 
+WHERE D.delisting_date > var1 AND D.delisting_date < var2;
 
 END;
 
