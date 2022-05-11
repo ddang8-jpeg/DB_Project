@@ -37,41 +37,40 @@
 					echo "<table border=\"1px solid black\">";
 
 					echo "<tr>";
-					$flist = $result->fetch_fields();
-					foreach ($flist as $fname) {
-						echo "<th>" . $fname->name . "</th>";
-					}
+					echo "<th>Year</th>";
+					echo "<th>Count</th>";
 					echo "</tr>";
 
 					$col = $result->field_count;
-					while (null !== ($row = $result->fetch_assoc())) {
-						echo "<tr>";
-						foreach ($flist as $fname) {
-							echo "<td>" . $row[$fname->name] . "</td>";
-						}
-						echo "</tr>";
-					}
+					echo "<td>" . $dateIndex . "</td>";
+					echo "<td>" . $row['COUNT(species_id)'] . "</td>";
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
 					$result->free_result();
 
 
-					//while ($dateIndex < $end) {
+					/*while ($dateIndex < $end) {
 					if ($stmt->execute()) {
 
 						$result = $stmt->get_result();
 
-						echo "<tr>";
-						echo "<td>" . $row['COUNT(species_id'] . "</td>";
-						echo "</tr>";
-
+						if ($result && ($result->num_rows != 0)) {
+							echo "<tr>";
+							echo "<td>" . $row['COUNT(species_id)'] . "</td>";
+							echo "</tr>";
+						} else {
+							echo "<tr>";
+							echo "<td>" . $row['COUNT(species_id)'] . "</td>";
+							echo "</tr>";
+						}
 						$result->free_result();
 					} else {
 						echo $dateIndex . " execute failed.<br>";
 					}
 
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
-					//					}
+										}
+										*/
 
 
 
