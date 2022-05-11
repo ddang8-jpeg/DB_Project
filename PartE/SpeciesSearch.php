@@ -22,7 +22,7 @@
 
 		echo $var . "<br><br>";
 
-		if ($stmt = $conn->prepare("CALL GetSpeciesInfo(?)")) {
+		if ($stmt = $conn->prepare("CALL FindSpeciesName(?)")) {
 
 			$stmt->bind_param("s", $var);
 
