@@ -215,7 +215,7 @@ DROP PROCEDURE IF EXISTS ShowRefugesSpecies //
 CREATE PROCEDURE ShowRefugesSpecies(IN var VARCHAR(5))
 BEGIN
 
-SELECT R.Refuge_Name
+SELECT R.*
 FROM Refuge AS R JOIN Refuges AS E 
 ON R.Refuge_ID = E.Refuge_ID
 WHERE E.species_id = var;
@@ -227,7 +227,7 @@ DROP PROCEDURE IF EXISTS ShowPlansSpecies //
 CREATE PROCEDURE ShowPlansSpecies(IN var VARCHAR(5))
 BEGIN
 
-SELECT R.Refuge_Name
+SELECT C.*
 FROM Conservation AS C JOIN Planned AS P 
 ON C.Plan_ID = P.Plan_ID
 WHERE P.species_id = var;
@@ -245,6 +245,17 @@ ON S.Species_ID = C.Species_ID AND C.State_Code = T.State_Code
 WHERE T.State_Code = var OR T.State_Name = var OR T.Region = var OR T.Division = var
 GROUP BY S.Tax_Group
 ORDER BY COUNT(S.Species_id) DESC;
+
+END;
+
+/*Given a date range, list all of the species that were delisted before the given year.*/
+DROP PROCEDURE IF EXISTS  ShowSpeciesDelistedBeforeDate //
+CREATE PROCEDURE ShowSpeciesDelistedAfterDate(IN var DATE)
+BEGIN
+
+SELECT S.Species_ID, S.Scientific_Name, S.Esa_Listing_Status, D.*
+FROM Species AS S JOIN DelistedSpecies AS D
+ON S.species_id = D.species_id AND D.delisting_date < var;
 
 END;
 

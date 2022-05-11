@@ -55,46 +55,52 @@
 
 	<h2> 8. Input a date and a before or after to get all delisted species in timeframe</h2>
 	<form action="ShowSpeciesDelistedDate.php" method="post">
-		Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+		<select name="var1" id="var1">
+			<option value="before">Before</option>
+			<option value="after">After</option>
+		Date: <input type="date" id="var2" name="var2" value="2022-01-01" min="1967-01-01" max="2022-12-31">
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<h2> 9. Input a date range to get all species delisted with timeframe</h2>
 	<form action="ShowDelistedSpeciesDateRange.php" method="post">
-			Start Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
-			End Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			Start Date: <input type="date" id="var1" name="var1" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			End Date: <input type="date" id="var2" name="var2" value="2022-01-01" min="1967-01-01" max="2022-12-31">
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<h2> 11. Input a date and a before or after to get all listed species in timeframe</h2>
 	<form action="ShowSpeciesListedDate.php" method="post">
-			Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+		<select name="var1" id="var1">
+			<option value="before">Before</option>
+			<option value="after">After</option>
+		Date: <input type="date" id="var2" name="var2" value="2022-01-01" min="1967-01-01" max="2022-12-31">
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<h2> 12. Input a date range to get all species listed within time frame</h2>
 	<form action="ShowListedSpeciesDateRange.php" method="post">
-			Start Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
-			End Date: <input type="date" id="start" name="trip-start" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			Start Date: <input type="date" id="var1" name="var1" value="2022-01-01" min="1967-01-01" max="2022-12-31">
+			End Date: <input type="date" id="var2" name="var2" value="2022-01-01" min="1967-01-01" max="2022-12-31">
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<h2> 13. Input a year range to get count of listed species by year </h2>
 	<form action="ShowListedSpeciesCountDateRange.php" method="post">
-			Start Date: <input type="number" min="1967" max="2022" step="1" value="2022" />
-			End Date: <input type="number" min="1967" max="2022" step="1" value="2022" />	
+			Start Date: <input type="number" name="var1" min="1967" max="2022" step="1" value="2022" />
+			End Date: <input type="number" name="var2" min="1967" max="2022" step="1" value="2022" />	
 		<input type="submit">
 	</form>
 	<br/><br/>
 
 	<h2> 14. Input a year range to get count of delisted species by year  </h2>
 	<form action="ShowDelistedSpeciesCountDateRange.php" method="post">
-			Start Date: <input type="number" min="1967" max="2022" step="1" value="2022" />
-			End Date: <input type="number" min="1967" max="2022" step="1" value="2022" />	
+			Start Date: <input type="number" name="var1" min="1967" max="2022" step="1" value="2022" />
+			End Date: <input type="number" name="var2" min="1967" max="2022" step="1" value="2022" />	
 		<input type="submit">
 	</form>
 	<br/><br/>
