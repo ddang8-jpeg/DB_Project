@@ -29,7 +29,7 @@
 
 		if ($stmt) {
 
-			$stmt->bind_param("s", $var1);
+			$stmt->bind_param("s", $var2);
 
 			if ($stmt->execute()) {
 
