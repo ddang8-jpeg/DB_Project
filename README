@@ -3,7 +3,7 @@ Maria Movsheva mmovshe1
 
 Databases Project Spring 2022.
 
-No changes were made since Phase C or D. 
+changes made: changed the path of the import of the txt to be relative to the machine the code was on.
 
 What does not work properly in this project:
 Deletinng specie by its ID does not return sufficient explanation. The specie row gets deleted in the databse but there is no visuall proof.
