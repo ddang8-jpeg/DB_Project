@@ -41,8 +41,8 @@
 					echo "<th>Count</th>";
 					echo "</tr>";
 
-					$col = $result->field_count;
-					echo "<td>" . $dateIndex . "</td>";
+					$row = $result->fetch_row();
+					echo "<td>" . $var1 . "</td>";
 					echo "<td>" . $row[0] . "</td>";
 					$dateIndex = date('Y-m-d', strtotime($dateIndex . ' + 1 year'));
 
