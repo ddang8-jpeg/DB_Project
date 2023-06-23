@@ -1,11 +1,18 @@
 Derek Deng ddeng8
 Maria Movsheva mmovshe1
 
-Databases Project Spring 2022.
+# Databases Project Spring 2022.
+Our project goals were to connect databases that track endangered wildlife with species database in order to generate a database that houses information on both wildlife status and species information.
+Our domains source from government databases on endangered wildlife and gives relavent information on wildlife status and conservation efforts. It has information about taxonomy, habitats, conservation status, and recovery plans.
 
-changes made: changed the path of the import of the txt to be relative to the machine the code was on.
+## Data Sources:
+https://ecos.fws.gov/ecp/report/adhocDocumentation?catalogId=species&reportId=species
+https://www.census.gov/programs-surveys/fhwar/data/datasets.html
+https://www.gbif.org/developer/species
 
-What does not work properly in this project:
-Deleting specie by its ID does not return sufficient explanation. The specie row gets deleted in the databse but there is no visuall proof.
-Many of the .php files for to connect the procedure to html.
-Inserting new specie does not work as there are weird bugs within the php code that were not fixed in time. 
+
+### Changes made:
+changed the path of the import of the txt to be relative to the machine the code was on.
+
+### What does not work properly in this project:
+Deleting specie by its ID does not return sufficient explanation. The specie row gets deleted in the databse but there is no visuall proof. Many of the .php files for to connect the procedure to html. Inserting new specie does not work as there are weird bugs within the php code that were not fixed in time. 
